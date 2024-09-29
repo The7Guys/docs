@@ -5,7 +5,7 @@
   "description" : "Description",
   "documentation" : { },
   "id" : 1,
-  "lastModifiedDate" : "2024-09-29T13:17:48Z",
+  "lastModifiedDate" : "2024-09-29T13:22:25Z",
   "model" : {
     "people" : [ {
       "description" : "Participant in a fencing tournament. Needs to be registered to participate. Wants to lookup his results after publishing",
@@ -20,7 +20,7 @@
         "destinationId" : "5",
         "id" : "16",
         "properties" : {
-          "structurizr.dsl.identifier" : "3ef1ad9d-ba43-4d0c-b3b8-4e9423aab358"
+          "structurizr.dsl.identifier" : "a522b865-b5ee-46b6-b0af-f50b5f5d3657"
         },
         "sourceId" : "1",
         "tags" : "Relationship"
@@ -38,7 +38,7 @@
         "destinationId" : "5",
         "id" : "18",
         "properties" : {
-          "structurizr.dsl.identifier" : "5bd6b408-6532-445a-bb4b-3969e0f54347"
+          "structurizr.dsl.identifier" : "d4bf7ce2-a723-4406-8b71-64f7a37ad887"
         },
         "sourceId" : "2",
         "tags" : "Relationship"
@@ -56,7 +56,7 @@
         "destinationId" : "5",
         "id" : "17",
         "properties" : {
-          "structurizr.dsl.identifier" : "45ff3fc5-2d41-4c85-9633-c6ff391fb5ae"
+          "structurizr.dsl.identifier" : "c7e99c45-b303-4df0-8c3a-a54dd7cb7912"
         },
         "sourceId" : "3",
         "tags" : "Relationship"
@@ -74,7 +74,7 @@
         "destinationId" : "5",
         "id" : "19",
         "properties" : {
-          "structurizr.dsl.identifier" : "005855c0-37b4-422e-aa1b-f729acafd91a"
+          "structurizr.dsl.identifier" : "b5fc1768-c73d-4f12-a5f7-9712038eb769"
         },
         "sourceId" : "4",
         "tags" : "Relationship"
@@ -94,7 +94,7 @@
           "destinationId" : "13",
           "id" : "22",
           "properties" : {
-            "structurizr.dsl.identifier" : "45548274-1464-46f0-acf2-c618a6293140"
+            "structurizr.dsl.identifier" : "a7d22dfa-3a11-409a-ac06-9f7dca32c1bc"
           },
           "sourceId" : "6",
           "tags" : "Relationship"
@@ -107,7 +107,7 @@
           "destinationId" : "14",
           "id" : "24",
           "properties" : {
-            "structurizr.dsl.identifier" : "ab7df53f-e7cb-4b55-a81c-ddd144888aca"
+            "structurizr.dsl.identifier" : "d307353a-97a1-4c85-a650-11572c08b251"
           },
           "sourceId" : "6",
           "tags" : "Relationship"
@@ -115,7 +115,7 @@
           "destinationId" : "11",
           "id" : "25",
           "properties" : {
-            "structurizr.dsl.identifier" : "06259eee-da41-4e33-bad7-a61dbd06029d"
+            "structurizr.dsl.identifier" : "983f90ff-a126-47d1-a715-2e20e085aba4"
           },
           "sourceId" : "6",
           "tags" : "Relationship"
@@ -133,7 +133,7 @@
           "destinationId" : "14",
           "id" : "26",
           "properties" : {
-            "structurizr.dsl.identifier" : "17c47641-b90d-4857-bdba-ea45b903031a"
+            "structurizr.dsl.identifier" : "ec8da992-cf87-4c37-86f9-52c806a15923"
           },
           "sourceId" : "7",
           "tags" : "Relationship"
@@ -146,7 +146,7 @@
           "destinationId" : "11",
           "id" : "28",
           "properties" : {
-            "structurizr.dsl.identifier" : "9a430274-4289-414f-b29f-f39810614ec9"
+            "structurizr.dsl.identifier" : "4ee5d983-921b-4208-bf26-c5d525a61de2"
           },
           "sourceId" : "7",
           "tags" : "Relationship"
@@ -188,7 +188,7 @@
           "destinationId" : "15",
           "id" : "20",
           "properties" : {
-            "structurizr.dsl.identifier" : "af70df03-bdc6-4f34-af76-4ea369e29d00"
+            "structurizr.dsl.identifier" : "bbdc6c03-1c2d-4435-ab44-e47f278f1d0b"
           },
           "sourceId" : "11",
           "tags" : "Relationship"
@@ -206,7 +206,7 @@
             "destinationId" : "9",
             "id" : "29",
             "properties" : {
-              "structurizr.dsl.identifier" : "0d85072c-94e3-42c3-b525-50fc28bf0e2a"
+              "structurizr.dsl.identifier" : "7b1ce3b0-054a-41dd-8ee4-acbf2ea6f538"
             },
             "sourceId" : "13",
             "tags" : "Relationship"
@@ -230,7 +230,7 @@
             "destinationId" : "10",
             "id" : "33",
             "properties" : {
-              "structurizr.dsl.identifier" : "57b021ae-325c-4691-a9bf-c6220ff54e50"
+              "structurizr.dsl.identifier" : "47c59ede-b18c-449e-ab27-8622babba679"
             },
             "sourceId" : "14",
             "tags" : "Relationship"
