@@ -1,23 +1,17 @@
-#  example on architecture as code using C4 and structurizr
+# Tiqzy API Documentation
 
-## Disclaimer
-This documentation is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+A Structurizr workspace containing the architecture of the Tiqzy API.
 
-This architecture is not in any way complete or sane. It is to show you some way you could document your architecture.
-NOT as an example how to do a good architecture.
+## Requirements
 
-## Application Architecture
+- Docker
 
-An application **architecure as code** could look something like the layout from structurizr
+## Usage
 
-Its got most of the categories in a seperate Markdown file with descriptions in text.
-The structural decomposition is done in C4 https://c4model.com/  the model is in the file workspace.dsl
-Architecture decisions in adr-tools https://docs.structurizr.com/dsl/adrs 
+To build and run the docker container, run the following command:
 
-## Running structrurizer
+```bash
+docker-compose up --build
+```
 
-I used structurizer lite per instructions on https://docs.structurizr.com/lite
-using the docker/podman scheme
-
+The API will be available at `http://localhost:8000`.
