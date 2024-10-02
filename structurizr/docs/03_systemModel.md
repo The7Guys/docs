@@ -19,18 +19,17 @@
 + Poule
 + Bout
 
-### Microservice Fencer 
+### Microservice Fencer
 
 
 ## Entities
 
 | Entity        | Description                                                                  | Attributes                                 |
 |---------------|------------------------------------------------------------------------------|--------------------------------------------|
-| Fencer        | Participant who fences in the tournament.                                    | name, age, n weapons, total xp             |
-| Referee       | Participant who judges bouts in the tournament.                              | name, age, n weapons, total xp             |
-| User          | Authorized user of the system, can edit, create schedules etc, based on role | name, role                                 |
-| Viewer        | Anonymous user who can view tournament results                               |                                            |
-| Tournament    |                                                                              |                                            |
-| Circuit       | Series of tournaments                                                        | name                                       |
-| Ledger        | Lists payments                                                               | name, date amount                          |
-| Subscription  | Right to participate in specific tournament or circuit                       | type (tournament of circuit), date, period |
+| Client        | Person who buys tickets for events or attractions                           | Name, Email, Password, Address, Payment Information, Tickets |
+| Ticket        | A ticket for an event or attraction                                          | Event, Price, Date, Location               |
+| Event         | An event or attraction that tickets can be bought for                        | Name, Description, Location, Date, Tickets          |
+| Reseller      | A platform that sells tickets for events or attractions                      | Name, Logo, Website                        |
+| Payment       | A payment for a ticket                                                      | Amount, Date, Payment Method, Payment Status |
+| Provider      | A platform that provides tickets for events or attractions via API           | Name, URL, API, Enabled, Token             |
+| Admin         | A person who manages the system                                              | Name, Email, Password                      |
