@@ -1,71 +1,65 @@
 
 ## Requirements
 ### Functional requirements
-#### The tool should facilitate preregistering and registering of fencers and referees.
-* preregistration info comes from an external tool so some upload mechanism should be available
-* registration should be possible at several registration points
-* payments should be administrated, but no bookkeeping application (just a ledger or something like that)
-* subscriptions: single entry, subscription
 
+These are the basic features and functions the Tiqzy app needs to have to work properly: 
 
-#### Creating a tournament with poules and bouts
-* Creating poules and assigning fencers based on weapontype, points
-    * foil/epee/sabre short(size 0)/long (size 5)
-    * points scored in previous tournaments on this weapon ie foil/epee/sabre any size
-* Assigning strips to poules
-* Assigning referees to poules
-* generating printable poule schedules
-* register points scored for fencers
-* update total points for fencers
-* register referee participation 
-* update referee total xp
+**Reseller Microsite Setup**: Resellers are the platforms that want to sell tickets through the ticket platforms. A microsite is mini website that is linked to a reseller Id, when used in the URL, directs users to a website with the reseller’s tickets that they want to sell. The system must allow businesses to create their own ticket-selling microsite, where they can add their brand logos, images, and payment options.  
+
+ 
+
+**Country and City Selection**: Users should be able to select their country and city in the app to view tickets for events or attractions available in their area. These tickets will be grouped by activity type. For example, all tickets for boat activities in Amsterdam will be grouped together, and bus tours will also be grouped together differently. 
+
+  
+
+**Ticket Browsing and Purchase**: The app must allow users to browse through available tickets, view details, and purchase tickets directly. It will also allow users to sort through tickets by activity, country, cities etc. 
+
+ 
+
+  
+
+**Payment Integration**: The platform must integrate with Stripe for secure online payments, allowing users to pay for tickets easily and safely. 
+
+  
+
+**API Integration**: The system must connect to external ticket providers (via API) to automatically update ticket listings, prices, and availability in real-time. These APIs will also receive information from the businesses like museums which want to sell their tickets through the Tiqzy platform. 
+
+  
+
+**Ticket Management Dashboard**: Resellers must have access to a dashboard where they can manage their tickets (e.g., adding, removing, or editing tickets) and track sales and bookings. 
+
+  
+
+**Ticket Price Management**: The system must support different ticket pricing options, such as full price, discounted, or free tickets, depending on the reseller's preferences. 
+
+  
+**Booking Overview**: Resellers should be able to see a list of all booked tickets, 	including information like who bought them and how much they paid. This will be 	linked to their accounts which allow for more visibility. 
+
 
 ### Non-Functional requirements
 
-#### Availability
-* High availability during tournaments
-* In fencing locations no internet may be possible. The solution should include hardware setup to create 
-  a local network and/or facilitate internet acces by some means
-* during registration at least 3 workstations should be available  
-* during the rest of the tournament 2
+**Scalability**: The application must scale horizontally, to accommodate a growing number of users and transactions without performance loss. To achieve this, load balancing will be implemented with the application to distribute traffic efficiently. 
 
-#### Compliance
-* AVG
+ 
 
-#### Open Source
-* GPL-v2
+**Performance**: The application should perform well on any smartphone, with low loading speeds under normal network conditions. The overall user experience while navigating the application must be smooth, and interactions should be performed without lag. 
 
-#### Recoverability
-* create and restore backups
+ 
 
-#### Response time
-* registration and paymentscreens ~ 1s roundtrip
-* generating poule schedules ~ 1 m roundtrip
-* printing ~ 10 s per poule
+**User-friendly design**: The app should be designed a simple and easy-to-use way, with a clean layout, drawing inspiration from other ticket (re)selling platforms like GetYourGuide or Tiqets. 
 
-#### Scalability
-* registration should be able to handle ~ 600 registrations/h 
-  * This translates to 10 concurrent registration desks handling 30 registrations/half hour
+ 
 
-#### Security
-* login mandatory
-* secure connection backend and clients
-  * intermediate solution credentials in DB, later OAuth
-* RBAC
-* (pre)/registration, tournament creation, etc only for staff
+**Security**: The application must protect all user data by using encryption (SSL/TLS) and secure authentication mechanisms (OAuth 2.0, JWT tokens). The payment processing, done through Stripe, must also implement security measures. 
 
-### Stretch goals
-* Multi tenancy
-* work offline in a local network with multiple clients, synchronize with online component at later stage.
-* view personal results for fencers
-  * RBAC tournament results for anyone, personal results for fencer only
-  * question: howto couple login to fencer
-* poules-lists on-line cq screen(s) in tournament hall
-* life updates on-line cq screen(s) in tournament hall
-  * ability to register bouts in some app
-  * if bout-results are updated realtime, some result monitors
-* registration by means of some personalized mobile app, based on some info only locally available
-  that's not easily shared to persons off-site,   e.a. barcode, qr-code, etc
-  (registration requires the fencer/referee to be on site!)
+ 
 
+**Availability**: The app should be highly available and reliable, to ensure a minimum level of downtime. To achieve this, logging, error handling, and failover mechanisms will be implemented within the application. 
 
+ 
+
+**Integration with external platforms**: The application must integrate smoothly with external ticketing platforms via their APIs, to ensure easy and fast updates to ticket information. 
+
+ 
+
+**Localization**: The app should be able to support multiple countries and cities, and it should be adaptable to include more locations if needed. For each location, all tickets for all events located there should be featured on the page. 

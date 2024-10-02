@@ -8,24 +8,28 @@ reward (certificate, emblem, etc) is issued. This setup allows everyone to progr
 
 ## System story
 
-A fencer Alice, 14 yr, foil-fencer, shows up at the tournament hall along with her parents. She has preregistered so her
-details are already in the system. She has no subscription so has pay for this specific tournament. After one of the parents pays her entry into
-marked as paid. She then makes her registration final, which shows the tournament director she is phyiscally present.
-She the processes to the dressing room putting on her fencing clothes and moves to the main hall. A the start of the tournament the 
-poules assignments are read aloud and Alice goes to the strip where her poule will be fenced. After she finishes all of her bouts, she gets
-the option to review the poule results. After she finds no faults she signs of on the poule sheet. The tournament is finished. After several days
-she looks up the results of the latest tournament and the cummulitave score of this tournament and previous ones in this tournament circuit.
+The Tiqzy platform is designed as a reseller system that allows businesses to sell tickets under their own brand. Tiqzy sets up microsites for resellers, such as hotels, museums, or other businesses, enabling them to manage and sell tickets through their own platform-branded microsite. The system provides resellers with tools to customize their microsite by adding logos, images, payment methods, and other relevant details. It offers flexibility in ticket pricing (full price, discounted, or free) and connects with external platforms via APIs. 
 
-The tournament director Kees closes the registration at the advertised closing time. He then lists all registered fencers. The system
-disregards preregistered fencers that did not register in time. They are marked as no-show. The system then groups the fencers according to
-fencing weapon, age category. Per group the director determinces the poule size with a minimun of 4 and a max of 10, depending on the number of
-fencers in that group, dividing the fencers evenly over the poules. He then assigns a referee to every poule. The referee has to be qualified for the weapon 
-of the poulefencers. The poulesheets are printed and handed to the referee. The referee will start the poule and return the results 
-when all bouts are finished. Kees then enters the results in the system. The system then calculates the score per fencer. After all the results are processed they can then be exported to the KNAS rating list.
+The platform's goal is to support global scalability for discovery and selling, offering users an easy-to-navigate interface where they can select a country and city, view local ticket options, and purchase them seamlessly. Tiqzy aims to expand the platform by increasing the number of cities, thereby growing the user base. A core feature is its integration with external ticketing providers via API, ensuring up-to-date content is delivered to the app without manual upload. Stripe is used as the payment platform. 
 
-Staff member Hae handles payments during the registration process. Payment can be done in cash or via a  bank card by means of a "pin-transaction
-(no credit cards)
-She creates a receipt for the payment and the payment is added to the ledger. After registration she checks the money-box and the bank account
+Tiqzy is looking to implement a cloud-based backend architecture that supports scalability as the platform's user base grows. Initially, the system will be designed to support a smaller user base averaging 5,000 users, with the ability to scale seamlessly to accommodate up to 50,000 users and beyond as demand increases. The goal is to have an infrastructure that can dynamically expand in response to user growth, ensuring that the platform remains fast and reliable at all stages.  
 
-Referee Kedar resisters when he arrives. He receives a poule assignment and judges all the bouts in the poule. He enters the results in the poule-sheet.
-at the end of the tournament he hands in the poule-sheets. He receives a number of xp for referee-ing.
+Their design inspiration is drawn from similar systems like GetYourGuide.com and Tiqets.com with a goal to improve existing traditional user workflows. The system seeks to balance recognizable design elements with improved user experience, providing a streamlined, and intuitive ticketing experience.   
+
+### Target User Group 
+
+The application is built for a wide range of users, from businesses looking to resell tickets to consumers seeking quick access to local events and attractions. The target users are both the companies setting up the reseller platforms and the end consumers purchasing tickets. The initial audience is expected to be between 5,000 and 15,000 users, with growth dependent on the addition of new cities and countries to the platform. 
+
+### Platform Goals and Features 
+
+Customizable reseller microsites where businesses can manage ticket sales. 
+
+Global scalability, allowing users to select the country and city they would like to purchase tickets at and view relevant venue ticket offerings. 
+
+API integration for seamless content delivery from external providers. 
+
+Stripe payment integration for easy transactions. 
+
+User-friendly design, inspired by GetYourGuide.com and Tiqets.com, with flexibility in navigation and ticket advertising. 
+
+This platform seeks to establish itself as a competitive player in the ticketing industry, offering improvements on existing systems through enhanced scalability and ease of use. 
