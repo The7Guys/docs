@@ -5,7 +5,7 @@
   "description" : "Description",
   "documentation" : { },
   "id" : 1,
-  "lastModifiedDate" : "2024-10-02T11:40:36Z",
+  "lastModifiedDate" : "2024-10-02T12:00:37Z",
   "model" : {
     "people" : [ {
       "description" : "Participant in a fencing tournament. Needs to be registered to participate. Wants to lookup his results after publishing",
@@ -20,7 +20,7 @@
         "destinationId" : "5",
         "id" : "16",
         "properties" : {
-          "structurizr.dsl.identifier" : "ca1a4e7d-79e1-49f1-b7ee-aee31706791f"
+          "structurizr.dsl.identifier" : "2057a9ea-8a1d-4edf-b406-97b7f72e8f2a"
         },
         "sourceId" : "1",
         "tags" : "Relationship"
@@ -38,7 +38,7 @@
         "destinationId" : "5",
         "id" : "18",
         "properties" : {
-          "structurizr.dsl.identifier" : "c628f8f5-4e65-4648-859c-6f6790e92dce"
+          "structurizr.dsl.identifier" : "1b6f926a-f646-4aee-a794-72a24732fe35"
         },
         "sourceId" : "2",
         "tags" : "Relationship"
@@ -56,7 +56,7 @@
         "destinationId" : "5",
         "id" : "17",
         "properties" : {
-          "structurizr.dsl.identifier" : "75e2ac9f-e3d9-4d50-a887-9c38de426542"
+          "structurizr.dsl.identifier" : "a0d6cca0-09b3-4b16-bf42-c1ae35d77f13"
         },
         "sourceId" : "3",
         "tags" : "Relationship"
@@ -74,7 +74,7 @@
         "destinationId" : "5",
         "id" : "19",
         "properties" : {
-          "structurizr.dsl.identifier" : "f9d5c49a-849f-43fd-951f-210d1abd428a"
+          "structurizr.dsl.identifier" : "3d1d087a-adc2-45a8-8f0e-fb4cbd65d39a"
         },
         "sourceId" : "4",
         "tags" : "Relationship"
@@ -94,7 +94,7 @@
           "destinationId" : "13",
           "id" : "22",
           "properties" : {
-            "structurizr.dsl.identifier" : "c50afae2-30f3-4636-b0f5-426b7f0ed0b2"
+            "structurizr.dsl.identifier" : "5dfc99bd-22ba-48f6-b6cd-3d2c29d0b846"
           },
           "sourceId" : "6",
           "tags" : "Relationship"
@@ -107,7 +107,7 @@
           "destinationId" : "14",
           "id" : "24",
           "properties" : {
-            "structurizr.dsl.identifier" : "ae0d0008-fab9-40db-a403-a3c6401ff862"
+            "structurizr.dsl.identifier" : "deb6a1c2-fe70-45be-bf4a-f71b4d77c4b8"
           },
           "sourceId" : "6",
           "tags" : "Relationship"
@@ -115,7 +115,7 @@
           "destinationId" : "11",
           "id" : "25",
           "properties" : {
-            "structurizr.dsl.identifier" : "054b3f4b-2774-44af-8c9d-af2c91d9d3ea"
+            "structurizr.dsl.identifier" : "d7e92f78-4dc4-44ba-936d-eb4409f1d4b7"
           },
           "sourceId" : "6",
           "tags" : "Relationship"
@@ -133,7 +133,7 @@
           "destinationId" : "14",
           "id" : "26",
           "properties" : {
-            "structurizr.dsl.identifier" : "bec624ff-da8a-497e-8f8e-6c00cd7809ed"
+            "structurizr.dsl.identifier" : "8a31d21c-818c-4db2-94a5-4016f8c502ce"
           },
           "sourceId" : "7",
           "tags" : "Relationship"
@@ -146,7 +146,7 @@
           "destinationId" : "11",
           "id" : "28",
           "properties" : {
-            "structurizr.dsl.identifier" : "f1423a6e-af81-4f9b-a92d-bb8a8963e9a3"
+            "structurizr.dsl.identifier" : "b41cbdd5-fc4a-477c-95b3-7d724eebc4cd"
           },
           "sourceId" : "7",
           "tags" : "Relationship"
@@ -188,7 +188,7 @@
           "destinationId" : "15",
           "id" : "20",
           "properties" : {
-            "structurizr.dsl.identifier" : "8c66144e-a931-4b29-9383-a803115d738c"
+            "structurizr.dsl.identifier" : "6824d3be-3513-4861-bbf2-9868c60b3d52"
           },
           "sourceId" : "11",
           "tags" : "Relationship"
@@ -206,7 +206,7 @@
             "destinationId" : "9",
             "id" : "29",
             "properties" : {
-              "structurizr.dsl.identifier" : "f4a8127f-1609-45ea-b7ff-7b3ef525efc2"
+              "structurizr.dsl.identifier" : "28ab6fbe-f663-4218-a524-8d7f197e17de"
             },
             "sourceId" : "13",
             "tags" : "Relationship"
@@ -230,7 +230,7 @@
             "destinationId" : "10",
             "id" : "33",
             "properties" : {
-              "structurizr.dsl.identifier" : "2c1ec511-efd6-465d-9da2-796854df58d6"
+              "structurizr.dsl.identifier" : "54979530-4b9b-417a-a52a-3218f8609abd"
             },
             "sourceId" : "14",
             "tags" : "Relationship"
@@ -320,7 +320,7 @@
           "order" : 2,
           "title" : ""
         }, {
-          "content" : "## System Model\n\n### MicroService Tournament\n\n#### Responsibility\n+ Create and retrieve instances of tournaments\n+ Facilitate Registration\n+ Facilitatie creating Tournament schema\n+ Store Tournament specific info; like poules, bouts, references to fencers and referees\n#### Interface\n+ createTournament\n+ registerParticipant (fencer of referee)\n+ getFencersPerCategory\n+ createSchemaPerCategory\n+ registerResults\n#### Data\n+ Circuit\n+ Tournament\n+ Poule\n+ Bout\n\n### Microservice Fencer \n\n\n## Entities\n\n| Entity        | Description                                                                  | Attributes                                 |\n|---------------|------------------------------------------------------------------------------|--------------------------------------------|\n| Fencer        | Participant who fences in the tournament.                                    | name, age, n weapons, total xp             |\n| Referee       | Participant who judges bouts in the tournament.                              | name, age, n weapons, total xp             |\n| User          | Authorized user of the system, can edit, create schedules etc, based on role | name, role                                 |\n| Viewer        | Anonymous user who can view tournament results                               |                                            |\n| Tournament    |                                                                              |                                            |\n| Circuit       | Series of tournaments                                                        | name                                       |\n| Ledger        | Lists payments                                                               | name, date amount                          |\n| Subscription  | Right to participate in specific tournament or circuit                       | type (tournament of circuit), date, period |",
+          "content" : "## System Model\n\n### MicroService Tournament\n\n#### Responsibility\n+ Create and retrieve instances of tournaments\n+ Facilitate Registration\n+ Facilitatie creating Tournament schema\n+ Store Tournament specific info; like poules, bouts, references to fencers and referees\n#### Interface\n+ createTournament\n+ registerParticipant (fencer of referee)\n+ getFencersPerCategory\n+ createSchemaPerCategory\n+ registerResults\n#### Data\n+ Circuit\n+ Tournament\n+ Poule\n+ Bout\n\n### Microservice Fencer\n\n\n## Entities\n\n| Entity        | Description                                                                  | Attributes                                 |\n|---------------|------------------------------------------------------------------------------|--------------------------------------------|\n| Client        | Person who buys tickets for events or attractions                           | Name, Email, Password, Address, Payment Information, Tickets |\n| Ticket        | A ticket for an event or attraction                                          | Event, Price, Date, Location               |\n| Event         | An event or attraction that tickets can be bought for                        | Name, Description, Location, Date, Tickets          |\n| Reseller      | A platform that sells tickets for events or attractions                      | Name, Logo, Website                        |\n| Payment       | A payment for a ticket                                                      | Amount, Date, Payment Method, Payment Status |\n| Provider      | A platform that provides tickets for events or attractions via API           | Name, URL, API, Enabled, Token             |\n| Admin         | A person who manages the system                                              | Name, Email, Password                      |",
           "filename" : "03_systemModel.md",
           "format" : "Markdown",
           "order" : 3,
