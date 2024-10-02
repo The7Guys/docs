@@ -3,7 +3,7 @@ Tiqzy is Whitelabel ticket reselling software package owned by a Dutch entrepren
 The company would like their software to be more suitable for mobile users (the ticket resellers will be the users), for example by displaying sales statistics. Students are invited to think about the direction in which this software will develop. They will be supported when it comes to things like making API connections.
 The current software is entirely written in PHP.
 
-![](embed:Context-Diagram)
+![](embed:Ticket-Reselling-Context)
 
 ## System story
 

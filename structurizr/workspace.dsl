@@ -1,86 +1,62 @@
 workspace {
 
     model {
-        fencer = person "Fencer" {
-            description "Participant in a fencing tournament. Needs to be registered to participate. Wants to lookup his results after publishing"
+        reseller = person "Reseller" {
+            description "The user who resells tickets using the system. Wants to track sales statistics and manage tickets."
         }
 
-        tournamentOfficeStaff = person "Tournament Office Staff"
-        referee = person "Referee"
-        tournamentDirector = person "Tournament Director"
+        buyer = person "Ticket Buyer" {
+            description "The user who purchases tickets from resellers through the system."
+        }
 
+        admin = person "System Administrator" {
+            description "Manages the system, ensures uptime, and oversees user and ticket management."
+        }
 
-
-        fencingTournamentSystem = softwareSystem "FencingTournament" {
+        ticketResellingSystem = softwareSystem "Tiqzy Ticket Reselling" {
             !docs docs
             !adrs adrs
-             description "The system automates fencing tournaments of the type JPT. It can register fencers and referees, create a tournament schedule and process tournament results"
+            description "The system that facilitates the reselling of tickets, including ticket management, sales statistics, and purchasing options."
             webApp = container "Web Frontend" {
-                description "Main interface to the application.  All userdriven actions are implemented in this frontend"
+                description "Primary interface for users to buy, sell, and manage tickets."
             }
-            mobileApp = Container "Mobile App" {
-                description "Secundary interface to the application.  used to facilitate registring and result lookup"
+            mobileApp = container "Mobile App" {
+                description "Secondary interface for mobile users to access ticket management and sales statistics."
             }
-            database = Container "Database" {
-                fencerDb = Component "Fencer Database"
-                tournamentDb = Component "Tournament Database"
+            database = container "Database" {
+                ticketDb = component "Ticket Database"
+                salesStatsDb = component "Sales Statistics Database"
             }
-            keycloak =  Container "Keycloak"
-            backend =  Container "Backend" {
-                fencerMS = Component "Fencer MicroServie" {
-                    technology "golang"
-                }
-                tournamentMS = Component "Tournament MicroServie" {
-                    description "Create and manage tournaments "
-                    technology "Java"
-                }
+            authService = container "Authentication Service" {
+                description "Handles user authentication and security."
             }
-
+            paymentService = container "Payment Service" {
+                description "Handles ticket purchases and payment processing."
+            }
         }
 
-        onzeRelatiesSystem = softwareSystem "Onze Relaties" {
-            description "Onze relaties is a external system which has a registration of all members of the KNAS. Among which fencers, referees and organisers. It can facilitate single signon"
-
+        externalTicketingAPI = softwareSystem "External Ticketing API" {
+            description "External system that provides ticketing information and integrates with Tiqzy for ticket validation and reselling."
         }
 
-        fencer -> fencingTournamentSystem "Registers for the tournament and looks up tournament results"
-        referee -> fencingTournamentSystem "Gets poule assignments and returns results"
-        tournamentOfficeStaff -> fencingTournamentSystem "Handles registration and payments"
-        tournamentDirector -> fencingTournamentSystem "Generates poules and bouts"
+        reseller -> ticketResellingSystem "Manages and resells tickets"
+        buyer -> ticketResellingSystem "Purchases tickets from resellers"
+        admin -> ticketResellingSystem "Oversees system operations"
 
-        keycloak -> onzeRelatiesSystem
-        webApp -> fencerMS
-        webApp -> tournamentMS
-        webApp -> keycloak
-        mobileApp -> tournamentMS
-        mobileApp -> keycloak
-        fencerMS -> fencerDb
-        tournamentMS -> tournamentDb
-
-
-
+        webApp -> ticketDb "Fetches ticket data"
+        webApp -> salesStatsDb "Fetches sales statistics"
+        mobileApp -> ticketDb
+        mobileApp -> salesStatsDb
+        authService -> externalTicketingAPI "Validates tickets"
+        paymentService -> externalTicketingAPI "Processes payments"
     }
 
     views {
-        systemContext fencingTournamentSystem "Context-Diagram" {
-            description "The fencing tournament system "
+        systemContext ticketResellingSystem "Ticket-Reselling-Context" {
+            description "System context diagram for the Tiqzy Ticket Reselling platform."
             include *
             autolayout
         }
-
-        container fencingTournamentSystem "Container-Diagram" {
-            include *
-        }
-
-        component backend "Backend-Component-Diagram" {
-            include *
-        }
-
-        component database "Database-Component-Diagram" {
-            include *
-        }
-
-
 
 
         styles {

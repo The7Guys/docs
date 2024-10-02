@@ -5,269 +5,197 @@
   "description" : "Description",
   "documentation" : { },
   "id" : 1,
-  "lastModifiedDate" : "2024-10-02T12:00:37Z",
+  "lastModifiedDate" : "2024-10-02T13:01:21Z",
   "model" : {
     "people" : [ {
-      "description" : "Participant in a fencing tournament. Needs to be registered to participate. Wants to lookup his results after publishing",
+      "description" : "The user who resells tickets using the system. Wants to track sales statistics and manage tickets.",
       "id" : "1",
       "location" : "Unspecified",
-      "name" : "Fencer",
+      "name" : "Reseller",
       "properties" : {
-        "structurizr.dsl.identifier" : "fencer"
+        "structurizr.dsl.identifier" : "reseller"
       },
       "relationships" : [ {
-        "description" : "Registers for the tournament and looks up tournament results",
-        "destinationId" : "5",
-        "id" : "16",
+        "description" : "Manages and resells tickets",
+        "destinationId" : "4",
+        "id" : "13",
         "properties" : {
-          "structurizr.dsl.identifier" : "2057a9ea-8a1d-4edf-b406-97b7f72e8f2a"
+          "structurizr.dsl.identifier" : "ad9d582e-f2bc-44a7-9fbb-f138bba16548"
         },
         "sourceId" : "1",
         "tags" : "Relationship"
       } ],
       "tags" : "Element,Person"
     }, {
+      "description" : "The user who purchases tickets from resellers through the system.",
       "id" : "2",
       "location" : "Unspecified",
-      "name" : "Tournament Office Staff",
+      "name" : "Ticket Buyer",
       "properties" : {
-        "structurizr.dsl.identifier" : "tournamentofficestaff"
+        "structurizr.dsl.identifier" : "buyer"
       },
       "relationships" : [ {
-        "description" : "Handles registration and payments",
-        "destinationId" : "5",
-        "id" : "18",
+        "description" : "Purchases tickets from resellers",
+        "destinationId" : "4",
+        "id" : "14",
         "properties" : {
-          "structurizr.dsl.identifier" : "1b6f926a-f646-4aee-a794-72a24732fe35"
+          "structurizr.dsl.identifier" : "57a95a12-165a-49eb-9c85-6e47172710dc"
         },
         "sourceId" : "2",
         "tags" : "Relationship"
       } ],
       "tags" : "Element,Person"
     }, {
+      "description" : "Manages the system, ensures uptime, and oversees user and ticket management.",
       "id" : "3",
       "location" : "Unspecified",
-      "name" : "Referee",
+      "name" : "System Administrator",
       "properties" : {
-        "structurizr.dsl.identifier" : "referee"
+        "structurizr.dsl.identifier" : "admin"
       },
       "relationships" : [ {
-        "description" : "Gets poule assignments and returns results",
-        "destinationId" : "5",
-        "id" : "17",
+        "description" : "Oversees system operations",
+        "destinationId" : "4",
+        "id" : "15",
         "properties" : {
-          "structurizr.dsl.identifier" : "a0d6cca0-09b3-4b16-bf42-c1ae35d77f13"
+          "structurizr.dsl.identifier" : "0a905130-b391-4140-bcf5-2435d7ca2b62"
         },
         "sourceId" : "3",
-        "tags" : "Relationship"
-      } ],
-      "tags" : "Element,Person"
-    }, {
-      "id" : "4",
-      "location" : "Unspecified",
-      "name" : "Tournament Director",
-      "properties" : {
-        "structurizr.dsl.identifier" : "tournamentdirector"
-      },
-      "relationships" : [ {
-        "description" : "Generates poules and bouts",
-        "destinationId" : "5",
-        "id" : "19",
-        "properties" : {
-          "structurizr.dsl.identifier" : "3d1d087a-adc2-45a8-8f0e-fb4cbd65d39a"
-        },
-        "sourceId" : "4",
         "tags" : "Relationship"
       } ],
       "tags" : "Element,Person"
     } ],
     "softwareSystems" : [ {
       "containers" : [ {
-        "description" : "Main interface to the application.  All userdriven actions are implemented in this frontend",
+        "description" : "Primary interface for users to buy, sell, and manage tickets.",
         "documentation" : { },
-        "id" : "6",
+        "id" : "5",
         "name" : "Web Frontend",
         "properties" : {
           "structurizr.dsl.identifier" : "webapp"
         },
         "relationships" : [ {
-          "destinationId" : "13",
-          "id" : "22",
+          "description" : "Fetches ticket data",
+          "destinationId" : "8",
+          "id" : "16",
           "properties" : {
-            "structurizr.dsl.identifier" : "5dfc99bd-22ba-48f6-b6cd-3d2c29d0b846"
+            "structurizr.dsl.identifier" : "98d32212-66f2-44d3-9543-c459d7c1c822"
           },
-          "sourceId" : "6",
+          "sourceId" : "5",
           "tags" : "Relationship"
         }, {
-          "destinationId" : "12",
-          "id" : "23",
-          "linkedRelationshipId" : "22",
-          "sourceId" : "6"
+          "description" : "Fetches ticket data",
+          "destinationId" : "7",
+          "id" : "17",
+          "linkedRelationshipId" : "16",
+          "sourceId" : "5"
         }, {
-          "destinationId" : "14",
-          "id" : "24",
+          "description" : "Fetches sales statistics",
+          "destinationId" : "9",
+          "id" : "18",
           "properties" : {
-            "structurizr.dsl.identifier" : "deb6a1c2-fe70-45be-bf4a-f71b4d77c4b8"
+            "structurizr.dsl.identifier" : "941cbbc8-d685-47d2-8ac2-11037cc00d0d"
           },
-          "sourceId" : "6",
-          "tags" : "Relationship"
-        }, {
-          "destinationId" : "11",
-          "id" : "25",
-          "properties" : {
-            "structurizr.dsl.identifier" : "d7e92f78-4dc4-44ba-936d-eb4409f1d4b7"
-          },
-          "sourceId" : "6",
+          "sourceId" : "5",
           "tags" : "Relationship"
         } ],
         "tags" : "Element,Container"
       }, {
-        "description" : "Secundary interface to the application.  used to facilitate registring and result lookup",
+        "description" : "Secondary interface for mobile users to access ticket management and sales statistics.",
         "documentation" : { },
-        "id" : "7",
+        "id" : "6",
         "name" : "Mobile App",
         "properties" : {
           "structurizr.dsl.identifier" : "mobileapp"
         },
         "relationships" : [ {
-          "destinationId" : "14",
-          "id" : "26",
+          "destinationId" : "8",
+          "id" : "19",
           "properties" : {
-            "structurizr.dsl.identifier" : "8a31d21c-818c-4db2-94a5-4016f8c502ce"
+            "structurizr.dsl.identifier" : "454e42dc-6551-4ca5-8a34-b165615af46c"
           },
-          "sourceId" : "7",
+          "sourceId" : "6",
           "tags" : "Relationship"
         }, {
-          "destinationId" : "12",
-          "id" : "27",
-          "linkedRelationshipId" : "26",
-          "sourceId" : "7"
+          "destinationId" : "7",
+          "id" : "20",
+          "linkedRelationshipId" : "19",
+          "sourceId" : "6"
         }, {
-          "destinationId" : "11",
-          "id" : "28",
+          "destinationId" : "9",
+          "id" : "21",
           "properties" : {
-            "structurizr.dsl.identifier" : "b41cbdd5-fc4a-477c-95b3-7d724eebc4cd"
+            "structurizr.dsl.identifier" : "1a986aee-8954-4789-998c-e31b84f7fb6b"
           },
-          "sourceId" : "7",
+          "sourceId" : "6",
           "tags" : "Relationship"
         } ],
         "tags" : "Element,Container"
       }, {
         "components" : [ {
           "documentation" : { },
-          "id" : "9",
-          "name" : "Fencer Database",
+          "id" : "8",
+          "name" : "Ticket Database",
           "properties" : {
-            "structurizr.dsl.identifier" : "fencerdb"
+            "structurizr.dsl.identifier" : "ticketdb"
           },
           "tags" : "Element,Component"
         }, {
           "documentation" : { },
-          "id" : "10",
-          "name" : "Tournament Database",
+          "id" : "9",
+          "name" : "Sales Statistics Database",
           "properties" : {
-            "structurizr.dsl.identifier" : "tournamentdb"
+            "structurizr.dsl.identifier" : "salesstatsdb"
           },
           "tags" : "Element,Component"
         } ],
         "documentation" : { },
-        "id" : "8",
+        "id" : "7",
         "name" : "Database",
         "properties" : {
           "structurizr.dsl.identifier" : "database"
         },
         "tags" : "Element,Container"
       }, {
+        "description" : "Handles user authentication and security.",
         "documentation" : { },
-        "id" : "11",
-        "name" : "Keycloak",
+        "id" : "10",
+        "name" : "Authentication Service",
         "properties" : {
-          "structurizr.dsl.identifier" : "keycloak"
+          "structurizr.dsl.identifier" : "authservice"
         },
         "relationships" : [ {
-          "destinationId" : "15",
-          "id" : "20",
+          "description" : "Validates tickets",
+          "destinationId" : "12",
+          "id" : "22",
           "properties" : {
-            "structurizr.dsl.identifier" : "6824d3be-3513-4861-bbf2-9868c60b3d52"
+            "structurizr.dsl.identifier" : "de140bd1-ff91-4e00-a66c-6086bf081b47"
+          },
+          "sourceId" : "10",
+          "tags" : "Relationship"
+        } ],
+        "tags" : "Element,Container"
+      }, {
+        "description" : "Handles ticket purchases and payment processing.",
+        "documentation" : { },
+        "id" : "11",
+        "name" : "Payment Service",
+        "properties" : {
+          "structurizr.dsl.identifier" : "paymentservice"
+        },
+        "relationships" : [ {
+          "description" : "Processes payments",
+          "destinationId" : "12",
+          "id" : "24",
+          "properties" : {
+            "structurizr.dsl.identifier" : "a9e4c756-1d06-47ee-8d6f-67177865c5bb"
           },
           "sourceId" : "11",
           "tags" : "Relationship"
         } ],
         "tags" : "Element,Container"
-      }, {
-        "components" : [ {
-          "documentation" : { },
-          "id" : "13",
-          "name" : "Fencer MicroServie",
-          "properties" : {
-            "structurizr.dsl.identifier" : "fencerms"
-          },
-          "relationships" : [ {
-            "destinationId" : "9",
-            "id" : "29",
-            "properties" : {
-              "structurizr.dsl.identifier" : "28ab6fbe-f663-4218-a524-8d7f197e17de"
-            },
-            "sourceId" : "13",
-            "tags" : "Relationship"
-          }, {
-            "destinationId" : "8",
-            "id" : "30",
-            "linkedRelationshipId" : "29",
-            "sourceId" : "13"
-          } ],
-          "tags" : "Element,Component",
-          "technology" : "golang"
-        }, {
-          "description" : "Create and manage tournaments",
-          "documentation" : { },
-          "id" : "14",
-          "name" : "Tournament MicroServie",
-          "properties" : {
-            "structurizr.dsl.identifier" : "tournamentms"
-          },
-          "relationships" : [ {
-            "destinationId" : "10",
-            "id" : "33",
-            "properties" : {
-              "structurizr.dsl.identifier" : "54979530-4b9b-417a-a52a-3218f8609abd"
-            },
-            "sourceId" : "14",
-            "tags" : "Relationship"
-          }, {
-            "destinationId" : "8",
-            "id" : "34",
-            "linkedRelationshipId" : "33",
-            "sourceId" : "14"
-          } ],
-          "tags" : "Element,Component",
-          "technology" : "Java"
-        } ],
-        "documentation" : { },
-        "id" : "12",
-        "name" : "Backend",
-        "properties" : {
-          "structurizr.dsl.identifier" : "backend"
-        },
-        "relationships" : [ {
-          "destinationId" : "9",
-          "id" : "31",
-          "linkedRelationshipId" : "29",
-          "sourceId" : "12"
-        }, {
-          "destinationId" : "8",
-          "id" : "32",
-          "linkedRelationshipId" : "29",
-          "sourceId" : "12"
-        }, {
-          "destinationId" : "10",
-          "id" : "35",
-          "linkedRelationshipId" : "33",
-          "sourceId" : "12"
-        } ],
-        "tags" : "Element,Container"
       } ],
-      "description" : "The system automates fencing tournaments of the type JPT. It can register fencers and referees, create a tournament schedule and process tournament results",
+      "description" : "The system that facilitates the reselling of tickets, including ticket management, sales statistics, and purchasing options.",
       "documentation" : {
         "decisions" : [ {
           "content" : "# 1. Record architecture decisions\n\nDate: 2024-09-18\n\n## Status\n\nAccepted\n\n## Context\n\nWe need to record the architectural decisions made on this project.\n\n## Decision\n\nWe will use Architecture Decision Records, as [described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).\n\n## Consequences\n\nSee Michael Nygard's article, linked above. For a lightweight ADR toolset, see Nat Pryce's [adr-tools](https://github.com/npryce/adr-tools).\n",
@@ -308,7 +236,7 @@
           "type" : "image/png"
         } ],
         "sections" : [ {
-          "content" : "## Context\nTiqzy is Whitelabel ticket reselling software package owned by a Dutch entrepreneur and developed by a team in London that will work with the student team. The current version is linked to various API’s related to ticket sales. These API’s usually work with timeslot (since COVID). For example: Museum tickets now have a time specified at which the visitor can enter.\nThe company would like their software to be more suitable for mobile users (the ticket resellers will be the users), for example by displaying sales statistics. Students are invited to think about the direction in which this software will develop. They will be supported when it comes to things like making API connections.\nThe current software is entirely written in PHP.\n\n![](embed:Context-Diagram)\n\n## System story\n\nThe Tiqzy platform is designed as a reseller system that allows businesses to sell tickets under their own brand. Tiqzy sets up microsites for resellers, such as hotels, museums, or other businesses, enabling them to manage and sell tickets through their own platform-branded microsite. The system provides resellers with tools to customize their microsite by adding logos, images, payment methods, and other relevant details. It offers flexibility in ticket pricing (full price, discounted, or free) and connects with external platforms via APIs.\n\nThe platform's goal is to support global scalability for discovery and selling, offering users an easy-to-navigate interface where they can select a country and city, view local ticket options, and purchase them seamlessly. Tiqzy aims to expand the platform by increasing the number of cities, thereby growing the user base. A core feature is its integration with external ticketing providers via API, ensuring up-to-date content is delivered to the app without manual upload. Stripe is used as the payment platform.\n\nTiqzy is looking to implement a cloud-based backend architecture that supports scalability as the platform's user base grows. Initially, the system will be designed to support a smaller user base averaging 5,000 users, with the ability to scale seamlessly to accommodate up to 50,000 users and beyond as demand increases. The goal is to have an infrastructure that can dynamically expand in response to user growth, ensuring that the platform remains fast and reliable at all stages.\n\nTheir design inspiration is drawn from similar systems like GetYourGuide.com and Tiqets.com with a goal to improve existing traditional user workflows. The system seeks to balance recognizable design elements with improved user experience, providing a streamlined, and intuitive ticketing experience.\n\n### Target User Group\n\nThe application is built for a wide range of users, from businesses looking to resell tickets to consumers seeking quick access to local events and attractions. The target users are both the companies setting up the reseller platforms and the end consumers purchasing tickets. The initial audience is expected to be between 5,000 and 15,000 users, with growth dependent on the addition of new cities and countries to the platform.\n\n### Platform Goals and Features\n\nCustomizable reseller microsites where businesses can manage ticket sales.\n\nGlobal scalability, allowing users to select the country and city they would like to purchase tickets at and view relevant venue ticket offerings.\n\nAPI integration for seamless content delivery from external providers.\n\nStripe payment integration for easy transactions.\n\nUser-friendly design, inspired by GetYourGuide.com and Tiqets.com, with flexibility in navigation and ticket advertising.\n\nThis platform seeks to establish itself as a competitive player in the ticketing industry, offering improvements on existing systems through enhanced scalability and ease of use.",
+          "content" : "## Context\nTiqzy is Whitelabel ticket reselling software package owned by a Dutch entrepreneur and developed by a team in London that will work with the student team. The current version is linked to various API’s related to ticket sales. These API’s usually work with timeslot (since COVID). For example: Museum tickets now have a time specified at which the visitor can enter.\nThe company would like their software to be more suitable for mobile users (the ticket resellers will be the users), for example by displaying sales statistics. Students are invited to think about the direction in which this software will develop. They will be supported when it comes to things like making API connections.\nThe current software is entirely written in PHP.\n\n![](embed:Ticket-Reselling-Context)\n\n## System story\n\nThe Tiqzy platform is designed as a reseller system that allows businesses to sell tickets under their own brand. Tiqzy sets up microsites for resellers, such as hotels, museums, or other businesses, enabling them to manage and sell tickets through their own platform-branded microsite. The system provides resellers with tools to customize their microsite by adding logos, images, payment methods, and other relevant details. It offers flexibility in ticket pricing (full price, discounted, or free) and connects with external platforms via APIs.\n\nThe platform's goal is to support global scalability for discovery and selling, offering users an easy-to-navigate interface where they can select a country and city, view local ticket options, and purchase them seamlessly. Tiqzy aims to expand the platform by increasing the number of cities, thereby growing the user base. A core feature is its integration with external ticketing providers via API, ensuring up-to-date content is delivered to the app without manual upload. Stripe is used as the payment platform.\n\nTiqzy is looking to implement a cloud-based backend architecture that supports scalability as the platform's user base grows. Initially, the system will be designed to support a smaller user base averaging 5,000 users, with the ability to scale seamlessly to accommodate up to 50,000 users and beyond as demand increases. The goal is to have an infrastructure that can dynamically expand in response to user growth, ensuring that the platform remains fast and reliable at all stages.\n\nTheir design inspiration is drawn from similar systems like GetYourGuide.com and Tiqets.com with a goal to improve existing traditional user workflows. The system seeks to balance recognizable design elements with improved user experience, providing a streamlined, and intuitive ticketing experience.\n\n### Target User Group\n\nThe application is built for a wide range of users, from businesses looking to resell tickets to consumers seeking quick access to local events and attractions. The target users are both the companies setting up the reseller platforms and the end consumers purchasing tickets. The initial audience is expected to be between 5,000 and 15,000 users, with growth dependent on the addition of new cities and countries to the platform.\n\n### Platform Goals and Features\n\nCustomizable reseller microsites where businesses can manage ticket sales.\n\nGlobal scalability, allowing users to select the country and city they would like to purchase tickets at and view relevant venue ticket offerings.\n\nAPI integration for seamless content delivery from external providers.\n\nStripe payment integration for easy transactions.\n\nUser-friendly design, inspired by GetYourGuide.com and Tiqets.com, with flexibility in navigation and ticket advertising.\n\nThis platform seeks to establish itself as a competitive player in the ticketing industry, offering improvements on existing systems through enhanced scalability and ease of use.",
           "filename" : "01_context.md",
           "format" : "Markdown",
           "order" : 1,
@@ -350,123 +278,53 @@
           "order" : 7,
           "title" : ""
         }, {
-          "content" : "## Risks\n| Risk                                                                    | Mitigation                                            |\n|-------------------------------------------------------------------------|-------------------------------------------------------|\n| Complexity of writing scalable, high available, robust applications     |use Openshift to handle and abstract these complexities|\n| Complexity of Openshift                                                 | training of the developers                            |\n| Dealing with vacations, sickleave and other disruptions                 | <ul><li>Use version control</li><li>Document</li></ul>|\n| Non-functional requirements are vague (customer has no real usage data) | Make some assumptions together with customer and revisit|",
+          "content" : "## Risks\n| Risk                                                                    | Mitigation                                            |\n|-------------------------------------------------------------------------|---------------------------------------------------------|\n| Complexity of how the hosting of the microsites are going to work       | Talk with their developer and learn how they do it already|\n| Complexity of Openshift                                                 | training of the developers and more research            |\n| Non-functional requirements are vague (customer has no real usage data) | Make some assumptions together with customer and revisit|\n| The development time is too short                                       | Prioritize the most important features and deliver them |\n| There is a lot of potential simultaneous users                          | Load testing and scaling up the system                  |\n| Team member is sick or unavailable                                      | Make sure that the team is cross-functional              |\n",
           "filename" : "09_risks.md",
           "format" : "Markdown",
           "order" : 8,
           "title" : ""
         }, {
-          "content" : "## Dictionary\n\n| term                  | meaning                                                                                              |\n|-----------------------|------------------------------------------------------------------------------------------------------|\n|preregristration       | indicating interest of the fencer in participating.                                                  |\n|registration        | finalizing the participaton of the fencer and indicating his/her presence                            |\n|circuit        | A Series of tournaments                                                                              |\n|fencer        | participant of the tournament                                                                        |\n|referee        | -------------------------                                                                            |\n|tournament office      | The group of people responcible for running the tournament. They are lead by the tournament director |\n|tournament office staff| members who handle payments, registrations and other adminstrative tasks                             |  \n|tournament director        | leads the tournament office and is responcible for creating poules etc                               |\n",
+          "content" : "## Dictionary\n\n| term                  | meaning                                                                                              |\n|-----------------------|------------------------------------------------------------------------------------------------------|\n|client                 | A person who buys tickets for events or attractions.                                                 |\n|client application     | An application that allows clients to buy tickets for events or attractions.                         |\n|ticket                 | A ticket for an event or attraction.                                                                 |\n|provider               | A platform that provides tickets for events or attractions via API.                                  |\n|reseller               | A platform that sells tickets for events or attractions.                                             |\n|admin                  | A person who manages the system.                                                                     |\n|microsite              | A small website that specializes in selling tickets for events or attractions in name of a reseller. |\n|CMS                    | Content Management System.                                                                           |\n|Stripe                 | A payment platform.                                                                                  |\n|API                    | Application Programming Interface.                                                                   |\n|token                  | A unique identifier used to authenticate with a provider's API.                                      |\n|event                  | An event or attraction that tickets can be bought for.                                               |\n|platform               | The system that provides the management of tickets and microsites.                                   |\n",
           "filename" : "10_dictionary.md",
           "format" : "Markdown",
           "order" : 9,
           "title" : ""
         } ]
       },
-      "id" : "5",
+      "id" : "4",
       "location" : "Unspecified",
-      "name" : "FencingTournament",
+      "name" : "Tiqzy Ticket Reselling",
       "properties" : {
-        "structurizr.dsl.identifier" : "fencingtournamentsystem"
+        "structurizr.dsl.identifier" : "ticketresellingsystem"
       },
       "relationships" : [ {
-        "destinationId" : "15",
-        "id" : "21",
-        "linkedRelationshipId" : "20",
-        "sourceId" : "5"
+        "description" : "Validates tickets",
+        "destinationId" : "12",
+        "id" : "23",
+        "linkedRelationshipId" : "22",
+        "sourceId" : "4"
       } ],
       "tags" : "Element,Software System"
     }, {
-      "description" : "Onze relaties is a external system which has a registration of all members of the KNAS. Among which fencers, referees and organisers. It can facilitate single signon",
+      "description" : "External system that provides ticketing information and integrates with Tiqzy for ticket validation and reselling.",
       "documentation" : { },
-      "id" : "15",
+      "id" : "12",
       "location" : "Unspecified",
-      "name" : "Onze Relaties",
+      "name" : "External Ticketing API",
       "properties" : {
-        "structurizr.dsl.identifier" : "onzerelatiessystem"
+        "structurizr.dsl.identifier" : "externalticketingapi"
       },
       "tags" : "Element,Software System"
     } ]
   },
   "name" : "Name",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgZmVuY2VyID0gcGVyc29uICJGZW5jZXIiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIlBhcnRpY2lwYW50IGluIGEgZmVuY2luZyB0b3VybmFtZW50LiBOZWVkcyB0byBiZSByZWdpc3RlcmVkIHRvIHBhcnRpY2lwYXRlLiBXYW50cyB0byBsb29rdXAgaGlzIHJlc3VsdHMgYWZ0ZXIgcHVibGlzaGluZyIKICAgICAgICB9CgogICAgICAgIHRvdXJuYW1lbnRPZmZpY2VTdGFmZiA9IHBlcnNvbiAiVG91cm5hbWVudCBPZmZpY2UgU3RhZmYiCiAgICAgICAgcmVmZXJlZSA9IHBlcnNvbiAiUmVmZXJlZSIKICAgICAgICB0b3VybmFtZW50RGlyZWN0b3IgPSBwZXJzb24gIlRvdXJuYW1lbnQgRGlyZWN0b3IiCgoKCiAgICAgICAgZmVuY2luZ1RvdXJuYW1lbnRTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiRmVuY2luZ1RvdXJuYW1lbnQiIHsKICAgICAgICAgICAgIWRvY3MgZG9jcwogICAgICAgICAgICAhYWRycyBhZHJzCiAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiVGhlIHN5c3RlbSBhdXRvbWF0ZXMgZmVuY2luZyB0b3VybmFtZW50cyBvZiB0aGUgdHlwZSBKUFQuIEl0IGNhbiByZWdpc3RlciBmZW5jZXJzIGFuZCByZWZlcmVlcywgY3JlYXRlIGEgdG91cm5hbWVudCBzY2hlZHVsZSBhbmQgcHJvY2VzcyB0b3VybmFtZW50IHJlc3VsdHMiCiAgICAgICAgICAgIHdlYkFwcCA9IGNvbnRhaW5lciAiV2ViIEZyb250ZW5kIiB7CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiTWFpbiBpbnRlcmZhY2UgdG8gdGhlIGFwcGxpY2F0aW9uLiAgQWxsIHVzZXJkcml2ZW4gYWN0aW9ucyBhcmUgaW1wbGVtZW50ZWQgaW4gdGhpcyBmcm9udGVuZCIKICAgICAgICAgICAgfQogICAgICAgICAgICBtb2JpbGVBcHAgPSBDb250YWluZXIgIk1vYmlsZSBBcHAiIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJTZWN1bmRhcnkgaW50ZXJmYWNlIHRvIHRoZSBhcHBsaWNhdGlvbi4gIHVzZWQgdG8gZmFjaWxpdGF0ZSByZWdpc3RyaW5nIGFuZCByZXN1bHQgbG9va3VwIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGRhdGFiYXNlID0gQ29udGFpbmVyICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgZmVuY2VyRGIgPSBDb21wb25lbnQgIkZlbmNlciBEYXRhYmFzZSIKICAgICAgICAgICAgICAgIHRvdXJuYW1lbnREYiA9IENvbXBvbmVudCAiVG91cm5hbWVudCBEYXRhYmFzZSIKICAgICAgICAgICAgfQogICAgICAgICAgICBrZXljbG9hayA9ICBDb250YWluZXIgIktleWNsb2FrIgogICAgICAgICAgICBiYWNrZW5kID0gIENvbnRhaW5lciAiQmFja2VuZCIgewogICAgICAgICAgICAgICAgZmVuY2VyTVMgPSBDb21wb25lbnQgIkZlbmNlciBNaWNyb1NlcnZpZSIgewogICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgImdvbGFuZyIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHRvdXJuYW1lbnRNUyA9IENvbXBvbmVudCAiVG91cm5hbWVudCBNaWNyb1NlcnZpZSIgewogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJDcmVhdGUgYW5kIG1hbmFnZSB0b3VybmFtZW50cyAiCiAgICAgICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiSmF2YSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICB9CgogICAgICAgIG9uemVSZWxhdGllc1N5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJPbnplIFJlbGF0aWVzIiB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJPbnplIHJlbGF0aWVzIGlzIGEgZXh0ZXJuYWwgc3lzdGVtIHdoaWNoIGhhcyBhIHJlZ2lzdHJhdGlvbiBvZiBhbGwgbWVtYmVycyBvZiB0aGUgS05BUy4gQW1vbmcgd2hpY2ggZmVuY2VycywgcmVmZXJlZXMgYW5kIG9yZ2FuaXNlcnMuIEl0IGNhbiBmYWNpbGl0YXRlIHNpbmdsZSBzaWdub24iCgogICAgICAgIH0KCiAgICAgICAgZmVuY2VyIC0+IGZlbmNpbmdUb3VybmFtZW50U3lzdGVtICJSZWdpc3RlcnMgZm9yIHRoZSB0b3VybmFtZW50IGFuZCBsb29rcyB1cCB0b3VybmFtZW50IHJlc3VsdHMiCiAgICAgICAgcmVmZXJlZSAtPiBmZW5jaW5nVG91cm5hbWVudFN5c3RlbSAiR2V0cyBwb3VsZSBhc3NpZ25tZW50cyBhbmQgcmV0dXJucyByZXN1bHRzIgogICAgICAgIHRvdXJuYW1lbnRPZmZpY2VTdGFmZiAtPiBmZW5jaW5nVG91cm5hbWVudFN5c3RlbSAiSGFuZGxlcyByZWdpc3RyYXRpb24gYW5kIHBheW1lbnRzIgogICAgICAgIHRvdXJuYW1lbnREaXJlY3RvciAtPiBmZW5jaW5nVG91cm5hbWVudFN5c3RlbSAiR2VuZXJhdGVzIHBvdWxlcyBhbmQgYm91dHMiCgogICAgICAgIGtleWNsb2FrIC0+IG9uemVSZWxhdGllc1N5c3RlbQogICAgICAgIHdlYkFwcCAtPiBmZW5jZXJNUwogICAgICAgIHdlYkFwcCAtPiB0b3VybmFtZW50TVMKICAgICAgICB3ZWJBcHAgLT4ga2V5Y2xvYWsKICAgICAgICBtb2JpbGVBcHAgLT4gdG91cm5hbWVudE1TCiAgICAgICAgbW9iaWxlQXBwIC0+IGtleWNsb2FrCiAgICAgICAgZmVuY2VyTVMgLT4gZmVuY2VyRGIKICAgICAgICB0b3VybmFtZW50TVMgLT4gdG91cm5hbWVudERiCgoKCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgZmVuY2luZ1RvdXJuYW1lbnRTeXN0ZW0gIkNvbnRleHQtRGlhZ3JhbSIgewogICAgICAgICAgICBkZXNjcmlwdGlvbiAiVGhlIGZlbmNpbmcgdG91cm5hbWVudCBzeXN0ZW0gIgogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dAogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIGZlbmNpbmdUb3VybmFtZW50U3lzdGVtICJDb250YWluZXItRGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBiYWNrZW5kICJCYWNrZW5kLUNvbXBvbmVudC1EaWFncmFtIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29tcG9uZW50IGRhdGFiYXNlICJEYXRhYmFzZS1Db21wb25lbnQtRGlhZ3JhbSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgoKCgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkVsZW1lbnQiIHsKICAgICAgICAgICAgICAgIGNvbG9yIHdoaXRlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU29mdHdhcmUgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIHNlYWdyZWVuCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIG1lZGl1bXNlYWdyZWVuCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50InsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgbGlnaHRzZWFncmVlbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBkb2RnZXJibHVlCiAgICAgICAgICAgICAgICBzaGFwZSBwZXJzb24KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBjb25maWd1cmF0aW9uIHsKICAgICAgICBzY29wZSBzb2Z0d2FyZXN5c3RlbQogICAgfQoKfQ=="
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgcmVzZWxsZXIgPSBwZXJzb24gIlJlc2VsbGVyIiB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJUaGUgdXNlciB3aG8gcmVzZWxscyB0aWNrZXRzIHVzaW5nIHRoZSBzeXN0ZW0uIFdhbnRzIHRvIHRyYWNrIHNhbGVzIHN0YXRpc3RpY3MgYW5kIG1hbmFnZSB0aWNrZXRzLiIKICAgICAgICB9CgogICAgICAgIGJ1eWVyID0gcGVyc29uICJUaWNrZXQgQnV5ZXIiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIlRoZSB1c2VyIHdobyBwdXJjaGFzZXMgdGlja2V0cyBmcm9tIHJlc2VsbGVycyB0aHJvdWdoIHRoZSBzeXN0ZW0uIgogICAgICAgIH0KCiAgICAgICAgYWRtaW4gPSBwZXJzb24gIlN5c3RlbSBBZG1pbmlzdHJhdG9yIiB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJNYW5hZ2VzIHRoZSBzeXN0ZW0sIGVuc3VyZXMgdXB0aW1lLCBhbmQgb3ZlcnNlZXMgdXNlciBhbmQgdGlja2V0IG1hbmFnZW1lbnQuIgogICAgICAgIH0KCiAgICAgICAgdGlja2V0UmVzZWxsaW5nU3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIlRpcXp5IFRpY2tldCBSZXNlbGxpbmciIHsKICAgICAgICAgICAgIWRvY3MgZG9jcwogICAgICAgICAgICAhYWRycyBhZHJzCiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJUaGUgc3lzdGVtIHRoYXQgZmFjaWxpdGF0ZXMgdGhlIHJlc2VsbGluZyBvZiB0aWNrZXRzLCBpbmNsdWRpbmcgdGlja2V0IG1hbmFnZW1lbnQsIHNhbGVzIHN0YXRpc3RpY3MsIGFuZCBwdXJjaGFzaW5nIG9wdGlvbnMuIgogICAgICAgICAgICB3ZWJBcHAgPSBjb250YWluZXIgIldlYiBGcm9udGVuZCIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIlByaW1hcnkgaW50ZXJmYWNlIGZvciB1c2VycyB0byBidXksIHNlbGwsIGFuZCBtYW5hZ2UgdGlja2V0cy4iCiAgICAgICAgICAgIH0KICAgICAgICAgICAgbW9iaWxlQXBwID0gY29udGFpbmVyICJNb2JpbGUgQXBwIiB7CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiU2Vjb25kYXJ5IGludGVyZmFjZSBmb3IgbW9iaWxlIHVzZXJzIHRvIGFjY2VzcyB0aWNrZXQgbWFuYWdlbWVudCBhbmQgc2FsZXMgc3RhdGlzdGljcy4iCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGF0YWJhc2UgPSBjb250YWluZXIgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICB0aWNrZXREYiA9IGNvbXBvbmVudCAiVGlja2V0IERhdGFiYXNlIgogICAgICAgICAgICAgICAgc2FsZXNTdGF0c0RiID0gY29tcG9uZW50ICJTYWxlcyBTdGF0aXN0aWNzIERhdGFiYXNlIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGF1dGhTZXJ2aWNlID0gY29udGFpbmVyICJBdXRoZW50aWNhdGlvbiBTZXJ2aWNlIiB7CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiSGFuZGxlcyB1c2VyIGF1dGhlbnRpY2F0aW9uIGFuZCBzZWN1cml0eS4iCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcGF5bWVudFNlcnZpY2UgPSBjb250YWluZXIgIlBheW1lbnQgU2VydmljZSIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkhhbmRsZXMgdGlja2V0IHB1cmNoYXNlcyBhbmQgcGF5bWVudCBwcm9jZXNzaW5nLiIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgZXh0ZXJuYWxUaWNrZXRpbmdBUEkgPSBzb2Z0d2FyZVN5c3RlbSAiRXh0ZXJuYWwgVGlja2V0aW5nIEFQSSIgewogICAgICAgICAgICBkZXNjcmlwdGlvbiAiRXh0ZXJuYWwgc3lzdGVtIHRoYXQgcHJvdmlkZXMgdGlja2V0aW5nIGluZm9ybWF0aW9uIGFuZCBpbnRlZ3JhdGVzIHdpdGggVGlxenkgZm9yIHRpY2tldCB2YWxpZGF0aW9uIGFuZCByZXNlbGxpbmcuIgogICAgICAgIH0KCiAgICAgICAgcmVzZWxsZXIgLT4gdGlja2V0UmVzZWxsaW5nU3lzdGVtICJNYW5hZ2VzIGFuZCByZXNlbGxzIHRpY2tldHMiCiAgICAgICAgYnV5ZXIgLT4gdGlja2V0UmVzZWxsaW5nU3lzdGVtICJQdXJjaGFzZXMgdGlja2V0cyBmcm9tIHJlc2VsbGVycyIKICAgICAgICBhZG1pbiAtPiB0aWNrZXRSZXNlbGxpbmdTeXN0ZW0gIk92ZXJzZWVzIHN5c3RlbSBvcGVyYXRpb25zIgoKICAgICAgICB3ZWJBcHAgLT4gdGlja2V0RGIgIkZldGNoZXMgdGlja2V0IGRhdGEiCiAgICAgICAgd2ViQXBwIC0+IHNhbGVzU3RhdHNEYiAiRmV0Y2hlcyBzYWxlcyBzdGF0aXN0aWNzIgogICAgICAgIG1vYmlsZUFwcCAtPiB0aWNrZXREYgogICAgICAgIG1vYmlsZUFwcCAtPiBzYWxlc1N0YXRzRGIKICAgICAgICBhdXRoU2VydmljZSAtPiBleHRlcm5hbFRpY2tldGluZ0FQSSAiVmFsaWRhdGVzIHRpY2tldHMiCiAgICAgICAgcGF5bWVudFNlcnZpY2UgLT4gZXh0ZXJuYWxUaWNrZXRpbmdBUEkgIlByb2Nlc3NlcyBwYXltZW50cyIKICAgIH0KCiAgICB2aWV3cyB7CiAgICAgICAgc3lzdGVtQ29udGV4dCB0aWNrZXRSZXNlbGxpbmdTeXN0ZW0gIlRpY2tldC1SZXNlbGxpbmctQ29udGV4dCIgewogICAgICAgICAgICBkZXNjcmlwdGlvbiAiU3lzdGVtIGNvbnRleHQgZGlhZ3JhbSBmb3IgdGhlIFRpcXp5IFRpY2tldCBSZXNlbGxpbmcgcGxhdGZvcm0uIgogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYXV0b2xheW91dAogICAgICAgIH0KCgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIkVsZW1lbnQiIHsKICAgICAgICAgICAgICAgIGNvbG9yIHdoaXRlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU29mdHdhcmUgU3lzdGVtIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIHNlYWdyZWVuCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kIG1lZGl1bXNlYWdyZWVuCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29tcG9uZW50InsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgbGlnaHRzZWFncmVlbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBkb2RnZXJibHVlCiAgICAgICAgICAgICAgICBzaGFwZSBwZXJzb24KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBjb25maWd1cmF0aW9uIHsKICAgICAgICBzY29wZSBzb2Z0d2FyZXN5c3RlbQogICAgfQoKfQ=="
   },
   "views" : {
-    "componentViews" : [ {
-      "containerId" : "12",
-      "dimensions" : {
-        "height" : 1748,
-        "width" : 2480
-      },
-      "elements" : [ {
-        "id" : "6",
-        "x" : 200,
-        "y" : 75
-      }, {
-        "id" : "7",
-        "x" : 825,
-        "y" : 70
-      }, {
-        "id" : "8",
-        "x" : 680,
-        "y" : 1280
-      }, {
-        "id" : "13",
-        "x" : 215,
-        "y" : 795
-      }, {
-        "id" : "14",
-        "x" : 845,
-        "y" : 810
-      } ],
-      "externalContainerBoundariesVisible" : false,
-      "key" : "Backend-Component-Diagram",
-      "order" : 3,
-      "paperSize" : "A5_Landscape",
-      "relationships" : [ {
-        "id" : "22"
-      }, {
-        "id" : "24"
-      }, {
-        "id" : "26"
-      }, {
-        "id" : "30"
-      }, {
-        "id" : "34"
-      } ]
-    }, {
-      "containerId" : "8",
-      "dimensions" : {
-        "height" : 1748,
-        "width" : 2480
-      },
-      "elements" : [ {
-        "id" : "9",
-        "x" : 295,
-        "y" : 910
-      }, {
-        "id" : "10",
-        "x" : 925,
-        "y" : 920
-      }, {
-        "id" : "12",
-        "x" : 600,
-        "y" : 335
-      } ],
-      "externalContainerBoundariesVisible" : false,
-      "key" : "Database-Component-Diagram",
-      "order" : 4,
-      "paperSize" : "A5_Landscape",
-      "relationships" : [ {
-        "id" : "31"
-      }, {
-        "id" : "35"
-      } ]
-    } ],
     "configuration" : {
       "branding" : { },
-      "lastSavedView" : "Context-Diagram",
+      "lastSavedView" : "Ticket-Reselling-Context",
       "styles" : {
         "elements" : [ {
           "color" : "#ffffff",
@@ -488,55 +346,6 @@
       },
       "terminology" : { }
     },
-    "containerViews" : [ {
-      "dimensions" : {
-        "height" : 1748,
-        "width" : 2480
-      },
-      "elements" : [ {
-        "id" : "6",
-        "x" : 95,
-        "y" : 460
-      }, {
-        "id" : "7",
-        "x" : 740,
-        "y" : 470
-      }, {
-        "id" : "8",
-        "x" : 370,
-        "y" : 1260
-      }, {
-        "id" : "11",
-        "x" : 1035,
-        "y" : 865
-      }, {
-        "id" : "12",
-        "x" : 365,
-        "y" : 855
-      }, {
-        "id" : "15",
-        "x" : 1725,
-        "y" : 870
-      } ],
-      "externalSoftwareSystemBoundariesVisible" : false,
-      "key" : "Container-Diagram",
-      "order" : 2,
-      "paperSize" : "A5_Landscape",
-      "relationships" : [ {
-        "id" : "20"
-      }, {
-        "id" : "23"
-      }, {
-        "id" : "25"
-      }, {
-        "id" : "27"
-      }, {
-        "id" : "28"
-      }, {
-        "id" : "32"
-      } ],
-      "softwareSystemId" : "5"
-    } ],
     "systemContextViews" : [ {
       "automaticLayout" : {
         "applied" : false,
@@ -547,7 +356,7 @@
         "rankSeparation" : 300,
         "vertices" : false
       },
-      "description" : "The fencing tournament system",
+      "description" : "System context diagram for the Tiqzy Ticket Reselling platform.",
       "elements" : [ {
         "id" : "1",
         "x" : 0,
@@ -565,29 +374,23 @@
         "x" : 0,
         "y" : 0
       }, {
-        "id" : "5",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "15",
+        "id" : "12",
         "x" : 0,
         "y" : 0
       } ],
       "enterpriseBoundaryVisible" : true,
-      "key" : "Context-Diagram",
+      "key" : "Ticket-Reselling-Context",
       "order" : 1,
       "relationships" : [ {
-        "id" : "16"
+        "id" : "13"
       }, {
-        "id" : "17"
+        "id" : "14"
       }, {
-        "id" : "18"
+        "id" : "15"
       }, {
-        "id" : "19"
-      }, {
-        "id" : "21"
+        "id" : "23"
       } ],
-      "softwareSystemId" : "5"
+      "softwareSystemId" : "4"
     } ]
   }
 }
