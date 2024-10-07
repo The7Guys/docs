@@ -20,14 +20,12 @@ workspace {
             webApp = container "Web Frontend" {
                 description "Primary interface for users to buy, sell, and manage tickets."
             }
-
             mobileApp = container "Mobile App" {
                 description "Secondary interface for mobile users to access ticket management and sales statistics."
             }
             database = container "Database" {
                 ticketDb = component "Ticket Database"
                 salesStatsDb = component "Sales Statistics Database"
-                metricsDb = component "Metrics Database"
             }
             tableStorage = container "Table Storage" {
                 description "Azure Table Storage"
@@ -40,15 +38,9 @@ workspace {
             }
             paymentService = container "Payment Service" {
                 description "Handles ticket purchases and payment processing."
-            }
-            metricsService = container "Metrics Service" {
-                description "Gathers business metrics with the use of Prometheus"
-            }
-            statisticsService = container "Statistics Service" {
-                description "Gathers statistics"
-            }  
+            } 
             ticketService = container "Ticket Service" {
-                description "Handles the rethireval and communication with external ticketing APIs"
+                description "Handles the retrieval and communication with external ticketing APIs"
             }
             orderingService = container "Ordering Service" {
                 description "Handles internal orders of tickets and operations with databases"
@@ -59,28 +51,48 @@ workspace {
             description "External system that provides ticketing information and integrates with Tiqzy for ticket validation and reselling."
         }
 
-        grafanaWebApp = softwareSystem "Grafana Web App" {
+        grafana = softwareSystem "Grafana" {
+            !docs docs
+            !adrs adrs
             description "Visualise the metrics and statistics of Tiqzy App"
+            grafanaWebApp = container "Grafana Web App" {
+                description "Displays the metrics in dashboards"
+            }
+            metricsService = container "Metrics Service" {
+                description "Gathers business metrics with the use of Prometheus"
+            }
+            statisticsService = container "Statistics Service" {
+                description "Gathers statistics"
+            } 
+            database-grafana = container "Database-Grafana" {
+                metricsDb = component "Metrics Database"
+                statsDb = component "Sales Statistics Database"
+            }
         }
 
+        // connections ticket system
         reseller -> ticketResellingSystem "Manages and resells tickets"
         buyer -> ticketResellingSystem "Purchases tickets from resellers"
         admin -> ticketResellingSystem "Oversees system operations"
-        admin -> grafanaWebApp "Oversees Statistics"
-
+        admin -> grafana "Oversees Statistics"
         webApp -> ticketDb "Fetches ticket data"
         webApp -> salesStatsDb "Fetches sales statistics"
+        webApp -> paymentService
+        grafana -> webApp "Scrapes metrics and statistics"
         mobileApp -> ticketDb
         authService -> externalTicketingAPI "Validates tickets"
         paymentService -> externalTicketingAPI "Processes payments"
-        grafanaWebApp -> metricsService
-        grafanaWebApp -> statisticsService
-        metricsService -> metricsDb
         webApp -> orderingService "Checks ticket availability"
         webApp -> ticketService "Retrieves Tickets"
         orderingService -> ticketService "Books tickets from external source"
         orderingService -> tableStorage "Stores orders"
         ticketService -> blobQRC
+
+        //connections grafana
+        grafanaWebApp -> metricsService
+        grafanaWebApp -> statisticsService
+        metricsService -> metricsDb
+        statisticsService -> statsDb
     }
 
     views {
@@ -101,6 +113,22 @@ workspace {
         }
         component blob "Blob-Components" {
             description "Components within the Blob container"
+            include *
+            autolayout
+        }
+
+        systemContext grafana "Grafana-Context" {
+            description "System context diagram for the Grafana platform."
+            include *
+            autolayout
+        }
+        container grafana "Grafana-Containers" {
+            description "Containers diagram of the Grafana App."
+            include *
+            autolayout
+        }
+        component database-grafana "Database-Grafana-Components" {
+            description "Components within the Grafana Database container"
             include *
             autolayout
         }
@@ -126,7 +154,7 @@ workspace {
     }
 
     configuration {
-        scope softwaresystem
+        // no scope defined here
     }
 
 }
