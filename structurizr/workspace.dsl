@@ -21,7 +21,7 @@ workspace {
                 description "Primary interface for users to buy, sell, and manage tickets."
             }
             mobileApp = container "Mobile App" {
-                description "Secondary interface for mobile users to access ticket management and sales statistics."
+                description "Secondary inte rface for mobile users to access ticket management and sales statistics."
             }
             database = container "Database" {
                 ticketDb = component "Ticket Database"
@@ -34,11 +34,36 @@ workspace {
                 blobQRC = component "Azure blob to store the QR codes and e-tickets"
             }
             authService = container "Authentication Service" {
-                description "Handles user authentication and security."
+                 description "Handles user authentication and security."
+
+                authController = component "Controller" {
+                    description "Handles HTTP requests related to authentication, including login, logout, and registration."
+                    tags "Controller"
+                }
+
+                authServiceComponent = component "Service" {
+                    description "Implements authentication logic like validating users, registering, and token generation."
+                    tags "Service"
+                }
+
+                authRepository = component "Repository" {
+                    description "Manages the interaction with the database for user credentials and authentication tokens."
+                    tags "Repository"
+                }
+
+                userModel = component "User" {
+                    description "Represents a user with authentication credentials and token data."
+                    tags "Model"
+                }
+
+                tokenModel = component "Token" {
+                    description "Represents an authentication token with user data and expiration."
+                    tags "Model"
+                }
             }
             paymentService = container "Payment Service" {
                 description "Handles ticket purchases and payment processing."
-            } 
+            }
             ticketService = container "Ticket Service" {
                 description "Handles the retrieval and communication with external ticketing APIs"
             }
@@ -63,7 +88,7 @@ workspace {
             }
             statisticsService = container "Statistics Service" {
                 description "Gathers statistics"
-            } 
+            }
             database-grafana = container "Database-Grafana" {
                 metricsDb = component "Metrics Database"
                 statsDb = component "Sales Statistics Database"
@@ -93,6 +118,12 @@ workspace {
         grafanaWebApp -> statisticsService
         metricsService -> metricsDb
         statisticsService -> statsDb
+
+        // C3 - AuthService
+        authController -> authServiceComponent "Calls authentication logic"
+        authServiceComponent -> authRepository "Fetches user credentials and tokens"
+        authServiceComponent -> userModel "Reads and writes user data"
+        userModel -> tokenModel "Has many"
     }
 
     views {
@@ -129,6 +160,12 @@ workspace {
         }
         component database-grafana "Database-Grafana-Components" {
             description "Components within the Grafana Database container"
+            include *
+            autolayout
+        }
+
+        component authService "AuthService-Components" {
+            description "Components within the Authentication Service container"
             include *
             autolayout
         }
