@@ -76,6 +76,10 @@ workspace {
             description "External system that provides ticketing information and integrates with Tiqzy for ticket validation and reselling."
         }
 
+        paymentAPI = softwareSystem "Stripe" {
+            description "Stripe API"
+        }
+
         grafana = softwareSystem "Grafana" {
             !docs docs
             !adrs adrs
@@ -100,11 +104,9 @@ workspace {
         buyer -> ticketResellingSystem "Purchases tickets from resellers"
         admin -> ticketResellingSystem "Oversees system operations"
         admin -> grafana "Oversees Statistics"
-        webApp -> ticketDb "Fetches ticket data"
-        webApp -> salesStatsDb "Fetches sales statistics"
         webApp -> paymentService
         grafana -> webApp "Scrapes metrics and statistics"
-        mobileApp -> ticketDb
+        mobileApp -> orderingService
         authService -> externalTicketingAPI "Validates tickets"
         paymentService -> externalTicketingAPI "Processes payments"
         webApp -> orderingService "Checks ticket availability"
@@ -112,6 +114,10 @@ workspace {
         orderingService -> ticketService "Books tickets from external source"
         orderingService -> tableStorage "Stores orders"
         ticketService -> blobQRC
+        orderingService -> salesStatsDb
+        ticketService -> ticketDb
+        mobileApp -> ticketService
+        paymentService -> paymentAPI
 
         //connections grafana
         grafanaWebApp -> metricsService
