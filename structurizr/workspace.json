@@ -3,8 +3,7 @@
   "description" : "Description",
   "documentation" : { },
   "id" : 1,
-  "lastModifiedAgent" : "structurizr-ui",
-  "lastModifiedDate" : "2024-10-08T13:22:12Z",
+  "lastModifiedDate" : "2024-10-09T19:09:26Z",
   "model" : {
     "people" : [ {
       "description" : "The user who resells tickets using the system. Wants to track sales statistics and manage tickets.",
@@ -19,7 +18,7 @@
         "destinationId" : "4",
         "id" : "30",
         "properties" : {
-          "structurizr.dsl.identifier" : "52bd9c8b-6702-4859-ac4d-1d4c396256b7"
+          "structurizr.dsl.identifier" : "b1db045c-e446-47c7-856f-5992369bea8f"
         },
         "sourceId" : "1",
         "tags" : "Relationship"
@@ -38,7 +37,7 @@
         "destinationId" : "4",
         "id" : "31",
         "properties" : {
-          "structurizr.dsl.identifier" : "e2744a4e-3ae9-49ee-af9c-026ed571b77c"
+          "structurizr.dsl.identifier" : "dfccdacb-5e23-403a-8743-9f0daa9b932b"
         },
         "sourceId" : "2",
         "tags" : "Relationship"
@@ -57,7 +56,7 @@
         "destinationId" : "4",
         "id" : "32",
         "properties" : {
-          "structurizr.dsl.identifier" : "e15145d5-57ed-482e-ae48-d30e48f1b9ef"
+          "structurizr.dsl.identifier" : "af0ba9b5-41be-41c6-95c9-83611df23712"
         },
         "sourceId" : "3",
         "tags" : "Relationship"
@@ -66,7 +65,7 @@
         "destinationId" : "23",
         "id" : "33",
         "properties" : {
-          "structurizr.dsl.identifier" : "c9ee88f7-5ab7-4746-961e-d36645f84df1"
+          "structurizr.dsl.identifier" : "1624f1ca-3a05-4f77-8a31-e0a3c542c769"
         },
         "sourceId" : "3",
         "tags" : "Relationship"
@@ -87,7 +86,7 @@
           "destinationId" : "8",
           "id" : "34",
           "properties" : {
-            "structurizr.dsl.identifier" : "c4bde8a3-b1e7-4458-af25-94466758f152"
+            "structurizr.dsl.identifier" : "f0f21059-d873-41eb-ade9-19dccd16b1d6"
           },
           "sourceId" : "5",
           "tags" : "Relationship"
@@ -102,7 +101,7 @@
           "destinationId" : "9",
           "id" : "36",
           "properties" : {
-            "structurizr.dsl.identifier" : "24fd9b9f-422c-4322-b0be-79a4525cc3cf"
+            "structurizr.dsl.identifier" : "50fe8138-5bf8-49a3-a113-2fdd3bb47b64"
           },
           "sourceId" : "5",
           "tags" : "Relationship"
@@ -110,7 +109,7 @@
           "destinationId" : "19",
           "id" : "37",
           "properties" : {
-            "structurizr.dsl.identifier" : "bcc86481-c1d6-4bd3-9515-1505d3979fab"
+            "structurizr.dsl.identifier" : "7211787a-c498-422e-83e0-1b253963f343"
           },
           "sourceId" : "5",
           "tags" : "Relationship"
@@ -119,7 +118,7 @@
           "destinationId" : "21",
           "id" : "45",
           "properties" : {
-            "structurizr.dsl.identifier" : "eda24150-707d-473e-afee-78970d8848ae"
+            "structurizr.dsl.identifier" : "8883a90b-9e52-42d0-91dd-09433abb25bc"
           },
           "sourceId" : "5",
           "tags" : "Relationship"
@@ -128,7 +127,7 @@
           "destinationId" : "20",
           "id" : "46",
           "properties" : {
-            "structurizr.dsl.identifier" : "e6a2309b-1c23-4ee0-a9bb-bdae5003e0e7"
+            "structurizr.dsl.identifier" : "fe753e8c-0115-46ed-9016-0f876b3609b5"
           },
           "sourceId" : "5",
           "tags" : "Relationship"
@@ -146,7 +145,7 @@
           "destinationId" : "8",
           "id" : "40",
           "properties" : {
-            "structurizr.dsl.identifier" : "cfc57585-8cb4-4f70-bcd1-a5b89b0e9291"
+            "structurizr.dsl.identifier" : "a9341a40-6bc1-4c97-9e3f-82adb078c8d3"
           },
           "sourceId" : "6",
           "tags" : "Relationship"
@@ -222,7 +221,7 @@
             "destinationId" : "15",
             "id" : "57",
             "properties" : {
-              "structurizr.dsl.identifier" : "cb32e10f-0654-4543-9e25-91c73dd9e873"
+              "structurizr.dsl.identifier" : "a94a70ce-5efc-46d7-8665-45118fbc77fb"
             },
             "sourceId" : "14",
             "tags" : "Relationship"
@@ -241,7 +240,7 @@
             "destinationId" : "16",
             "id" : "58",
             "properties" : {
-              "structurizr.dsl.identifier" : "5c0b568e-197f-4098-b2bf-5d8be3802072"
+              "structurizr.dsl.identifier" : "2504b515-75d9-4365-a54a-5077078d1ab1"
             },
             "sourceId" : "15",
             "tags" : "Relationship"
@@ -250,7 +249,7 @@
             "destinationId" : "17",
             "id" : "59",
             "properties" : {
-              "structurizr.dsl.identifier" : "50272657-d025-4d9e-a345-0cfccc587d89"
+              "structurizr.dsl.identifier" : "4bb1da51-d3ce-4cfe-a624-c864cc0ef2b5"
             },
             "sourceId" : "15",
             "tags" : "Relationship"
@@ -278,7 +277,7 @@
             "destinationId" : "18",
             "id" : "60",
             "properties" : {
-              "structurizr.dsl.identifier" : "2a5b9493-b2af-4a26-9851-e913f4fb31d8"
+              "structurizr.dsl.identifier" : "e55ba1a7-ce94-4b7c-9017-8df534498122"
             },
             "sourceId" : "17",
             "tags" : "Relationship"
@@ -306,7 +305,7 @@
           "destinationId" : "22",
           "id" : "42",
           "properties" : {
-            "structurizr.dsl.identifier" : "8526da3a-73c0-4d0f-b7ac-a6991499b402"
+            "structurizr.dsl.identifier" : "622e2a5e-dab1-4000-a27f-872a5e8108c9"
           },
           "sourceId" : "13",
           "tags" : "Relationship"
@@ -325,7 +324,7 @@
           "destinationId" : "22",
           "id" : "44",
           "properties" : {
-            "structurizr.dsl.identifier" : "67facf2a-2602-439d-a156-e0924c74d700"
+            "structurizr.dsl.identifier" : "5602924e-3767-4f30-b8f3-c88965467ee1"
           },
           "sourceId" : "19",
           "tags" : "Relationship"
@@ -343,7 +342,7 @@
           "destinationId" : "12",
           "id" : "49",
           "properties" : {
-            "structurizr.dsl.identifier" : "0adbd6a1-dd8a-461a-a7d2-881ed616dd84"
+            "structurizr.dsl.identifier" : "fe87f018-2be7-4869-a59e-9d2d4b147c81"
           },
           "sourceId" : "20",
           "tags" : "Relationship"
@@ -367,7 +366,7 @@
           "destinationId" : "20",
           "id" : "47",
           "properties" : {
-            "structurizr.dsl.identifier" : "8ae9750b-50c2-442f-b47b-f24a62ae9470"
+            "structurizr.dsl.identifier" : "7a615fa0-43b5-49e7-b9da-284052d4ef9c"
           },
           "sourceId" : "21",
           "tags" : "Relationship"
@@ -376,7 +375,7 @@
           "destinationId" : "10",
           "id" : "48",
           "properties" : {
-            "structurizr.dsl.identifier" : "2ef707cf-8c41-4aa1-a579-a0e8e4c6bdfd"
+            "structurizr.dsl.identifier" : "6bfc7635-7a37-4e6f-8a07-e016e918c4f2"
           },
           "sourceId" : "21",
           "tags" : "Relationship"
@@ -424,25 +423,25 @@
           "type" : "image/png"
         } ],
         "sections" : [ {
-          "content" : "## Context\nTiqzy is Whitelabel ticket reselling software package owned by a Dutch entrepreneur and developed by a team in London that will work with the student team. The current version is linked to various API’s related to ticket sales. These API’s usually work with timeslot (since COVID). For example: Museum tickets now have a time specified at which the visitor can enter.\nThe company would like their software to be more suitable for mobile users (the ticket resellers will be the users), for example by displaying sales statistics. Students are invited to think about the direction in which this software will develop. They will be supported when it comes to things like making API connections.\nThe current software is entirely written in PHP.\n\n![](embed:Ticket-Reselling-Context)\n\n## System story\n\nThe Tiqzy platform is designed as a reseller system that allows businesses to sell tickets under their own brand. Tiqzy sets up microsites for resellers, such as hotels, museums, or other businesses, enabling them to manage and sell tickets through their own platform-branded microsite. The system provides resellers with tools to customize their microsite by adding logos, images, payment methods, and other relevant details. It offers flexibility in ticket pricing (full price, discounted, or free) and connects with external platforms via APIs.\n\nThe platform's goal is to support global scalability for discovery and selling, offering users an easy-to-navigate interface where they can select a country and city, view local ticket options, and purchase them seamlessly. Tiqzy aims to expand the platform by increasing the number of cities, thereby growing the user base. A core feature is its integration with external ticketing providers via API, ensuring up-to-date content is delivered to the app without manual upload. Stripe is used as the payment platform.\n\nTiqzy is looking to implement a cloud-based backend architecture that supports scalability as the platform's user base grows. Initially, the system will be designed to support a smaller user base averaging 5,000 users, with the ability to scale seamlessly to accommodate up to 50,000 users and beyond as demand increases. The goal is to have an infrastructure that can dynamically expand in response to user growth, ensuring that the platform remains fast and reliable at all stages.\n\nTheir design inspiration is drawn from similar systems like GetYourGuide.com and Tiqets.com with a goal to improve existing traditional user workflows. The system seeks to balance recognizable design elements with improved user experience, providing a streamlined, and intuitive ticketing experience.\n\n### Target User Group\n\nThe application is built for a wide range of users, from businesses looking to resell tickets to consumers seeking quick access to local events and attractions. The target users are both the companies setting up the reseller platforms and the end consumers purchasing tickets. The initial audience is expected to be between 5,000 and 15,000 users, with growth dependent on the addition of new cities and countries to the platform.\n\n### Platform Goals and Features\n\nCustomizable reseller microsites where businesses can manage ticket sales.\n\nGlobal scalability, allowing users to select the country and city they would like to purchase tickets at and view relevant venue ticket offerings.\n\nAPI integration for seamless content delivery from external providers.\n\nStripe payment integration for easy transactions.\n\nUser-friendly design, inspired by GetYourGuide.com and Tiqets.com, with flexibility in navigation and ticket advertising.\n\nThis platform seeks to establish itself as a competitive player in the ticketing industry, offering improvements on existing systems through enhanced scalability and ease of use.",
+          "content" : "## Context\r\nTiqzy is Whitelabel ticket reselling software package owned by a Dutch entrepreneur and developed by a team in London that will work with the student team. The current version is linked to various API’s related to ticket sales. These API’s usually work with timeslot (since COVID). For example: Museum tickets now have a time specified at which the visitor can enter.\r\nThe company would like their software to be more suitable for mobile users (the ticket resellers will be the users), for example by displaying sales statistics. Students are invited to think about the direction in which this software will develop. They will be supported when it comes to things like making API connections.\r\nThe current software is entirely written in PHP.\r\n\r\n![](embed:Ticket-Reselling-Context)\r\n\r\n## System story\r\n\r\nThe Tiqzy platform is designed as a reseller system that allows businesses to sell tickets under their own brand. Tiqzy sets up microsites for resellers, such as hotels, museums, or other businesses, enabling them to manage and sell tickets through their own platform-branded microsite. The system provides resellers with tools to customize their microsite by adding logos, images, payment methods, and other relevant details. It offers flexibility in ticket pricing (full price, discounted, or free) and connects with external platforms via APIs.\r\n\r\nThe platform's goal is to support global scalability for discovery and selling, offering users an easy-to-navigate interface where they can select a country and city, view local ticket options, and purchase them seamlessly. Tiqzy aims to expand the platform by increasing the number of cities, thereby growing the user base. A core feature is its integration with external ticketing providers via API, ensuring up-to-date content is delivered to the app without manual upload. Stripe is used as the payment platform.\r\n\r\nTiqzy is looking to implement a cloud-based backend architecture that supports scalability as the platform's user base grows. Initially, the system will be designed to support a smaller user base averaging 5,000 users, with the ability to scale seamlessly to accommodate up to 50,000 users and beyond as demand increases. The goal is to have an infrastructure that can dynamically expand in response to user growth, ensuring that the platform remains fast and reliable at all stages.\r\n\r\nTheir design inspiration is drawn from similar systems like GetYourGuide.com and Tiqets.com with a goal to improve existing traditional user workflows. The system seeks to balance recognizable design elements with improved user experience, providing a streamlined, and intuitive ticketing experience.\r\n\r\n### Target User Group\r\n\r\nThe application is built for a wide range of users, from businesses looking to resell tickets to consumers seeking quick access to local events and attractions. The target users are both the companies setting up the reseller platforms and the end consumers purchasing tickets. The initial audience is expected to be between 5,000 and 15,000 users, with growth dependent on the addition of new cities and countries to the platform.\r\n\r\n### Platform Goals and Features\r\n\r\nCustomizable reseller microsites where businesses can manage ticket sales.\r\n\r\nGlobal scalability, allowing users to select the country and city they would like to purchase tickets at and view relevant venue ticket offerings.\r\n\r\nAPI integration for seamless content delivery from external providers.\r\n\r\nStripe payment integration for easy transactions.\r\n\r\nUser-friendly design, inspired by GetYourGuide.com and Tiqets.com, with flexibility in navigation and ticket advertising.\r\n\r\nThis platform seeks to establish itself as a competitive player in the ticketing industry, offering improvements on existing systems through enhanced scalability and ease of use.",
           "filename" : "01_context.md",
           "format" : "Markdown",
           "order" : 1,
           "title" : ""
         }, {
-          "content" : "\n## Requirements\n### Functional requirements\n\nThese are the basic features and functions the Tiqzy app needs to have to work properly:\n\n**Reseller Microsite Setup**: Resellers are the platforms that want to sell tickets through the ticket platforms. A microsite is mini website that is linked to a reseller Id, when used in the URL, directs users to a website with the reseller’s tickets that they want to sell. The system must allow businesses to create their own ticket-selling microsite, where they can add their brand logos, images, and payment options.\n\n\n\n**Country and City Selection**: Users should be able to select their country and city in the app to view tickets for events or attractions available in their area. These tickets will be grouped by activity type. For example, all tickets for boat activities in Amsterdam will be grouped together, and bus tours will also be grouped together differently.\n\n\n\n**Ticket Browsing and Purchase**: The app must allow users to browse through available tickets, view details, and purchase tickets directly. It will also allow users to sort through tickets by activity, country, cities etc.\n\n\n\n\n\n**Payment Integration**: The platform must integrate with Stripe for secure online payments, allowing users to pay for tickets easily and safely.\n\n\n\n**API Integration**: The system must connect to external ticket providers (via API) to automatically update ticket listings, prices, and availability in real-time. These APIs will also receive information from the businesses like museums which want to sell their tickets through the Tiqzy platform.\n\n\n\n**Ticket Management Dashboard**: Resellers must have access to a dashboard where they can manage their tickets (e.g., adding, removing, or editing tickets) and track sales and bookings.\n\n\n\n**Ticket Price Management**: The system must support different ticket pricing options, such as full price, discounted, or free tickets, depending on the reseller's preferences.\n\n\n**Booking Overview**: Resellers should be able to see a list of all booked tickets, \tincluding information like who bought them and how much they paid. This will be \tlinked to their accounts which allow for more visibility.\n\n\n### Non-Functional requirements\n\n**Scalability**: The application must scale horizontally, to accommodate a growing number of users and transactions without performance loss. To achieve this, load balancing will be implemented with the application to distribute traffic efficiently.\n\n\n\n**Performance**: The application should perform well on any smartphone, with low loading speeds under normal network conditions. The overall user experience while navigating the application must be smooth, and interactions should be performed without lag.\n\n\n\n**User-friendly design**: The app should be designed a simple and easy-to-use way, with a clean layout, drawing inspiration from other ticket (re)selling platforms like GetYourGuide or Tiqets.\n\n\n\n**Security**: The application must protect all user data by using encryption (SSL/TLS) and secure authentication mechanisms (OAuth 2.0, JWT tokens). The payment processing, done through Stripe, must also implement security measures.\n\n\n\n**Availability**: The app should be highly available and reliable, to ensure a minimum level of downtime. To achieve this, logging, error handling, and failover mechanisms will be implemented within the application.\n\n\n\n**Integration with external platforms**: The application must integrate smoothly with external ticketing platforms via their APIs, to ensure easy and fast updates to ticket information.\n\n\n\n**Localization**: The app should be able to support multiple countries and cities, and it should be adaptable to include more locations if needed. For each location, all tickets for all events located there should be featured on the page.\n\n### Architecture Diagram\n\n![Tiqzy Architecture Diagram](img/Project_Architecture.png)\n\nThis diagram shows the high-level architecture of the Tiqzy platform. The system is designed to be cloud-based, with a frontend application that interacts with a backend API. The backend API connects to a database to store ticket information and user data. The system also integrates with external ticketing platforms via APIs to provide up-to-date ticket listings. The application is hosted on a cloud platform, which allows for scalability and high availability.\n\nThe client requests are authenticated and go through RabbitMQ, which acts as a message broker to distribute the requests to the appropriate services. The services are containerized using Docker and orchestrated with OpenShift, which allows for easy deployment and scaling of the application. The system is monitored using Prometheus and Grafana to track performance and ensure reliability.\n\nNotice the two API's that are outside of the system - Tiqzy's ticketing API and Stripe's payment API. These are external services that the Tiqzy platform integrates with to provide ticket listings and payment processing.",
+          "content" : "\r\n## Requirements\r\n### Functional requirements\r\n\r\nThese are the basic features and functions the Tiqzy app needs to have to work properly:\r\n\r\n**Reseller Microsite Setup**: Resellers are the platforms that want to sell tickets through the ticket platforms. A microsite is mini website that is linked to a reseller Id, when used in the URL, directs users to a website with the reseller’s tickets that they want to sell. The system must allow businesses to create their own ticket-selling microsite, where they can add their brand logos, images, and payment options.\r\n\r\n\r\n\r\n**Country and City Selection**: Users should be able to select their country and city in the app to view tickets for events or attractions available in their area. These tickets will be grouped by activity type. For example, all tickets for boat activities in Amsterdam will be grouped together, and bus tours will also be grouped together differently.\r\n\r\n\r\n\r\n**Ticket Browsing and Purchase**: The app must allow users to browse through available tickets, view details, and purchase tickets directly. It will also allow users to sort through tickets by activity, country, cities etc.\r\n\r\n\r\n\r\n\r\n\r\n**Payment Integration**: The platform must integrate with Stripe for secure online payments, allowing users to pay for tickets easily and safely.\r\n\r\n\r\n\r\n**API Integration**: The system must connect to external ticket providers (via API) to automatically update ticket listings, prices, and availability in real-time. These APIs will also receive information from the businesses like museums which want to sell their tickets through the Tiqzy platform.\r\n\r\n\r\n\r\n**Ticket Management Dashboard**: Resellers must have access to a dashboard where they can manage their tickets (e.g., adding, removing, or editing tickets) and track sales and bookings.\r\n\r\n\r\n\r\n**Ticket Price Management**: The system must support different ticket pricing options, such as full price, discounted, or free tickets, depending on the reseller's preferences.\r\n\r\n\r\n**Booking Overview**: Resellers should be able to see a list of all booked tickets, \tincluding information like who bought them and how much they paid. This will be \tlinked to their accounts which allow for more visibility.\r\n\r\n\r\n### Non-Functional requirements\r\n\r\n**Scalability**: The application must scale horizontally, to accommodate a growing number of users and transactions without performance loss. To achieve this, load balancing will be implemented with the application to distribute traffic efficiently.\r\n\r\n\r\n\r\n**Performance**: The application should perform well on any smartphone, with low loading speeds under normal network conditions. The overall user experience while navigating the application must be smooth, and interactions should be performed without lag.\r\n\r\n\r\n\r\n**User-friendly design**: The app should be designed a simple and easy-to-use way, with a clean layout, drawing inspiration from other ticket (re)selling platforms like GetYourGuide or Tiqets.\r\n\r\n\r\n\r\n**Security**: The application must protect all user data by using encryption (SSL/TLS) and secure authentication mechanisms (OAuth 2.0, JWT tokens). The payment processing, done through Stripe, must also implement security measures.\r\n\r\n\r\n\r\n**Availability**: The app should be highly available and reliable, to ensure a minimum level of downtime. To achieve this, logging, error handling, and failover mechanisms will be implemented within the application.\r\n\r\n\r\n\r\n**Integration with external platforms**: The application must integrate smoothly with external ticketing platforms via their APIs, to ensure easy and fast updates to ticket information.\r\n\r\n\r\n\r\n**Localization**: The app should be able to support multiple countries and cities, and it should be adaptable to include more locations if needed. For each location, all tickets for all events located there should be featured on the page.\r\n\r\n### Architecture Diagram\r\n\r\n![Tiqzy Architecture Diagram](img/Project_Architecture.png)\r\n\r\nThis diagram shows the high-level architecture of the Tiqzy platform. The system is designed to be cloud-based, with a frontend application that interacts with a backend API. The backend API connects to a database to store ticket information and user data. The system also integrates with external ticketing platforms via APIs to provide up-to-date ticket listings. The application is hosted on a cloud platform, which allows for scalability and high availability.\r\n\r\nThe client requests are authenticated and go through RabbitMQ, which acts as a message broker to distribute the requests to the appropriate services. The services are containerized using Docker and orchestrated with OpenShift, which allows for easy deployment and scaling of the application. The system is monitored using Prometheus and Grafana to track performance and ensure reliability.\r\n\r\nNotice the two API's that are outside of the system - Tiqzy's ticketing API and Stripe's payment API. These are external services that the Tiqzy platform integrates with to provide ticket listings and payment processing.",
           "filename" : "02_requirements.md",
           "format" : "Markdown",
           "order" : 2,
           "title" : ""
         }, {
-          "content" : "## System Model\n\n### MicroService Tournament\n\n#### Responsibility\n+ Create and retrieve instances of tournaments\n+ Facilitate Registration\n+ Facilitatie creating Tournament schema\n+ Store Tournament specific info; like poules, bouts, references to fencers and referees\n#### Interface\n+ createTournament\n+ registerParticipant (fencer of referee)\n+ getFencersPerCategory\n+ createSchemaPerCategory\n+ registerResults\n#### Data\n+ Circuit\n+ Tournament\n+ Poule\n+ Bout\n\n### Microservice Fencer\n\n\n## Entities\n\n| Entity        | Description                                                                  | Attributes                                 |\n|---------------|------------------------------------------------------------------------------|--------------------------------------------|\n| Client        | Person who buys tickets for events or attractions                           | Name, Email, Password, Address, Payment Information, Tickets |\n| Ticket        | A ticket for an event or attraction                                          | Event, Price, Date, Location               |\n| Event         | An event or attraction that tickets can be bought for                        | Name, Description, Location, Date, Tickets          |\n| Reseller      | A platform that sells tickets for events or attractions                      | Name, Logo, Website                        |\n| Payment       | A payment for a ticket                                                      | Amount, Date, Payment Method, Payment Status |\n| Provider      | A platform that provides tickets for events or attractions via API           | Name, URL, API, Enabled, Token             |\n| Admin         | A person who manages the system                                              | Name, Email, Password                      |",
+          "content" : "## System Model\r\n\r\n### Authentication Service\r\n\r\n#### Responsibility\r\n+ Manage user authentication\r\n+ Manage user roles\r\n+ Manage user permissions\r\n+ Manage user sessions\r\n+ Manage password reset and change\r\n\r\n#### Interface\r\n+ login\r\n+ logout\r\n+ register\r\n+ changePassword\r\n+ resetPassword\r\n\r\n#### Data\r\n+ User\r\n+ Role\r\n+ Token\r\n\r\n### Payment Service\r\n\r\n#### Responsibility\r\n+ Create payment\r\n+ Manage payment methods\r\n+ Manage payment status\r\n+ Access payment history\r\n+ Retrieve payment information\r\n+ Handle callback from payment gateway\r\n+ Store and manage payment information\r\n\r\n#### Interface\r\n+ createPayment\r\n+ getPaymentMethods\r\n+ getPayment\r\n+ getPaymentHistory\r\n+ handleCallback\r\n+ getPaymentInformation\r\n\r\n#### Data\r\n+ Payment\r\n+ PaymentMethod\r\n+ PaymentStatus\r\n+ PaymentInformation\r\n\r\n### Ordering Service\r\n\r\n#### Responsibility\r\n+ Create order\r\n+ Manage order status\r\n+ Access order history\r\n+ Retrieve order information\r\n+ Handle order cancellation\r\n\r\n#### Interface\r\n+ createOrder\r\n+ getOrder\r\n+ getOrderHistory\r\n+ cancelOrder\r\n\r\n#### Data\r\n+ Order\r\n+ OrderStatus\r\n\r\n### Ticket Service\r\n+ Retrieve tickets from provider\r\n+ Manage ticket availability\r\n+ Get Ticket information\r\n+ Get Ticket availability\r\n+ Generate Apple Wallet Pass\r\n\r\n#### Interface\r\n+ getTicketsFromProvider\r\n+ getTicket\r\n+ getTicketAvailability\r\n+ generateAppleWalletPass\r\n\r\n#### Data\r\n+ Ticket\r\n+ TicketAvailability\r\n+ AppleWalletPass\r\n\r\n\r\n## Entities\r\n\r\n| Entity        | Description                                                                  | Attributes                                 |\r\n|---------------|------------------------------------------------------------------------------|--------------------------------------------|\r\n| User          | Person who buys tickets for events or attractions                           | First Name, Last Name, Email, Password, Payment Information, Tickets, Role, Permission, Tokens |\r\n| Ticket        | A ticket for an event or attraction                                          | Event Name, Price, Date, Location               |\r\n| Payment       | A payment for a ticket                                                      | Amount, Date, Payment Method, Payment Status, Payment Method, Payment Information |\r\n| Payment Status | The status of a payment                                                      | Pending, Success, Failed, Refunded, Cancelled |\r\n| Payment Method | A method of payment                                                          | Credit Card, Debit Card, PayPal, Bank Transfer, iDEAL, PayPal |\r\n| Payment Information | Information about a payment method                                       | Credit Card Number, Expiry Date, CVV, Name on Card, Bank Account Number, Bank Account Name, Bank Name, Bank Branch, Bank Branch Code, Bank Account Type, Bank Account Holder Name, Bank Account Holder Address, Bank Account Holder Phone Number, Bank Account Holder Email |\r\n| Order         | An order for tickets                                                         | Tickets, Date, Status, Payment, User, Order Number |\r\n| Order Status  | The status of an order                                                       | Pending, Confirmed, Cancelled, Refunded, Completed |\r\n| Role          | A role for a user                                                            | Admin, User, Reseller, Support |\r\n| Token         | A token for user authentication                                               | Access Token, Refresh Token, Expiry Date, User |\r\n| Ticket Availability | The availability of tickets for an event or attraction                    | Event Name, Date, Location, Available Tickets, Total Tickets |\r\n| Apple Wallet Pass | A pass for Apple Wallet                                                     | Pass Type, Pass Information |",
           "filename" : "03_systemModel.md",
           "format" : "Markdown",
           "order" : 3,
           "title" : ""
         }, {
-          "content" : "## Business process\n\n### Registration\n\n#### Preregister\n![preregistration proces](./img/preregistration_bpm.png \"preregistration proces\")\n\n#### Pay\n\n#### Register\n\n### Fencing\n\n#### Create Tournament Schedule\n\n#### Fence\n\n#### Process results\n\n### Process and Publish endresults",
+          "content" : "## Business process\r\n\r\n### Registration\r\n\r\n#### Preregister\r\n![preregistration proces](./img/preregistration_bpm.png \"preregistration proces\")\r\n\r\n#### Pay\r\n\r\n#### Register\r\n\r\n### Fencing\r\n\r\n#### Create Tournament Schedule\r\n\r\n#### Fence\r\n\r\n#### Process results\r\n\r\n### Process and Publish endresults",
           "filename" : "04_businessProcess.md",
           "format" : "Markdown",
           "order" : 4,
@@ -454,25 +453,25 @@
           "order" : 5,
           "title" : ""
         }, {
-          "content" : "## Application from a quality perspective\n\n\n### Validation\n (are we building the right system)\n- feedback on the requirements -- meeting\n- user testing\n- retrospective/demo\n- - prototype\n- wiremocks\n\n### Verification \n(are we building the system right)\n- unittests\n- integration testing\n- CDC testing\n- end2end~~\n\n- Static code check\n\n\n### Exploration\n(how can the system be abused/used in other ways)\n- pen test/ security test\n- user testing \n\n\n\n",
+          "content" : "## Application from a quality perspective\r\n\r\n\r\n### Validation\r\n (are we building the right system)\r\n- feedback on the requirements -- meeting\r\n- user testing\r\n- retrospective/demo\r\n- - prototype\r\n- wiremocks\r\n\r\n### Verification \r\n(are we building the system right)\r\n- unittests\r\n- integration testing\r\n- CDC testing\r\n- end2end~~\r\n\r\n- Static code check\r\n\r\n\r\n### Exploration\r\n(how can the system be abused/used in other ways)\r\n- pen test/ security test\r\n- user testing \r\n\r\n\r\n\r\n",
           "filename" : "06_testplan.md",
           "format" : "Markdown",
           "order" : 6,
           "title" : ""
         }, {
-          "content" : "## Quality process\n- 2x meetings, 1 with client together with client and 1 with just the team to make sure we are up to date, and we are on the same page with the client and ask for feedback. \n\n- Both mobile and backend team will be working with one Trello board which will help us to know what everyone is doing and keeps us updated.  \n\n- We will be reviewing each other's code to make sure that everyone is using the same coding standards and that there is not any breaking code pushed to the repository. \n\n- Team members will approve pull requests when the code is good, and the code can then be merged. \n\n- We will be consulting with the tech lead from the client side on issues we need help with that are related to the client ticketing system. ",
+          "content" : "## Quality process\r\n- 2x meetings, 1 with client together with client and 1 with just the team to make sure we are up to date, and we are on the same page with the client and ask for feedback. \r\n\r\n- Both mobile and backend team will be working with one Trello board which will help us to know what everyone is doing and keeps us updated.  \r\n\r\n- We will be reviewing each other's code to make sure that everyone is using the same coding standards and that there is not any breaking code pushed to the repository. \r\n\r\n- Team members will approve pull requests when the code is good, and the code can then be merged. \r\n\r\n- We will be consulting with the tech lead from the client side on issues we need help with that are related to the client ticketing system. ",
           "filename" : "07_qualityProcess.md",
           "format" : "Markdown",
           "order" : 7,
           "title" : ""
         }, {
-          "content" : "## Risks\n| Risk                                                                    | Mitigation                                            |\n|-------------------------------------------------------------------------|---------------------------------------------------------|\n| Complexity of how the hosting of the microsites are going to work       | Talk with their developer and learn how they do it already|\n| Complexity of Openshift                                                 | training of the developers and more research            |\n| Non-functional requirements are vague (customer has no real usage data) | Make some assumptions together with customer and revisit|\n| The development time is too short                                       | Prioritize the most important features and deliver them |\n| There is a lot of potential simultaneous users                          | Load testing and scaling up the system                  |\n| Team member is sick or unavailable                                      | Make sure that the team is cross-functional              |\n",
+          "content" : "## Risks\r\n| Risk                                                                    | Mitigation                                            |\r\n|-------------------------------------------------------------------------|---------------------------------------------------------|\r\n| Complexity of how the hosting of the microsites are going to work       | Talk with their developer and learn how they do it already|\r\n| Complexity of Openshift                                                 | training of the developers and more research            |\r\n| Non-functional requirements are vague (customer has no real usage data) | Make some assumptions together with customer and revisit|\r\n| The development time is too short                                       | Prioritize the most important features and deliver them |\r\n| There is a lot of potential simultaneous users                          | Load testing and scaling up the system                  |\r\n| Team member is sick or unavailable                                      | Make sure that the team is cross-functional              |\r\n",
           "filename" : "09_risks.md",
           "format" : "Markdown",
           "order" : 8,
           "title" : ""
         }, {
-          "content" : "## Dictionary\n\n| term                  | meaning                                                                                              |\n|-----------------------|------------------------------------------------------------------------------------------------------|\n|client                 | A person who buys tickets for events or attractions.                                                 |\n|client application     | An application that allows clients to buy tickets for events or attractions.                         |\n|ticket                 | A ticket for an event or attraction.                                                                 |\n|provider               | A platform that provides tickets for events or attractions via API.                                  |\n|reseller               | A platform that sells tickets for events or attractions.                                             |\n|admin                  | A person who manages the system.                                                                     |\n|microsite              | A small website that specializes in selling tickets for events or attractions in name of a reseller. |\n|CMS                    | Content Management System.                                                                           |\n|Stripe                 | A payment platform.                                                                                  |\n|API                    | Application Programming Interface.                                                                   |\n|token                  | A unique identifier used to authenticate with a provider's API.                                      |\n|event                  | An event or attraction that tickets can be bought for.                                               |\n|platform               | The system that provides the management of tickets and microsites.                                   |\n",
+          "content" : "## Dictionary\r\n\r\n| term                  | meaning                                                                                              |\r\n|-----------------------|------------------------------------------------------------------------------------------------------|\r\n|client                 | A person who buys tickets for events or attractions.                                                 |\r\n|client application     | An application that allows clients to buy tickets for events or attractions.                         |\r\n|ticket                 | A ticket for an event or attraction.                                                                 |\r\n|provider               | A platform that provides tickets for events or attractions via API.                                  |\r\n|reseller               | A platform that sells tickets for events or attractions.                                             |\r\n|admin                  | A person who manages the system.                                                                     |\r\n|microsite              | A small website that specializes in selling tickets for events or attractions in name of a reseller. |\r\n|CMS                    | Content Management System.                                                                           |\r\n|Stripe                 | A payment platform.                                                                                  |\r\n|API                    | Application Programming Interface.                                                                   |\r\n|token                  | A unique identifier used to authenticate with a provider's API.                                      |\r\n|event                  | An event or attraction that tickets can be bought for.                                               |\r\n|platform               | The system that provides the management of tickets and microsites.                                   |\r\n",
           "filename" : "10_dictionary.md",
           "format" : "Markdown",
           "order" : 9,
@@ -516,7 +515,7 @@
           "destinationId" : "25",
           "id" : "51",
           "properties" : {
-            "structurizr.dsl.identifier" : "a08978b3-686a-4b32-99c7-8320a7355a14"
+            "structurizr.dsl.identifier" : "6a2eb025-735f-42fe-98a4-485c44de5af6"
           },
           "sourceId" : "24",
           "tags" : "Relationship"
@@ -524,7 +523,7 @@
           "destinationId" : "26",
           "id" : "52",
           "properties" : {
-            "structurizr.dsl.identifier" : "02df3dc9-7d37-48a4-8de4-440df8c24153"
+            "structurizr.dsl.identifier" : "cf1521e6-2580-4e51-8a5d-126333a20ddf"
           },
           "sourceId" : "24",
           "tags" : "Relationship"
@@ -542,7 +541,7 @@
           "destinationId" : "28",
           "id" : "53",
           "properties" : {
-            "structurizr.dsl.identifier" : "81d4bb4d-1210-4e6f-93ca-0bf9f6c7a8b6"
+            "structurizr.dsl.identifier" : "c967395a-d88a-41c1-a124-bda39094f17f"
           },
           "sourceId" : "25",
           "tags" : "Relationship"
@@ -565,7 +564,7 @@
           "destinationId" : "29",
           "id" : "55",
           "properties" : {
-            "structurizr.dsl.identifier" : "93d46e76-edf7-455f-bcc2-b4847a4c34e2"
+            "structurizr.dsl.identifier" : "49b7b461-5d0e-4b2a-9826-5cf43d1ae74c"
           },
           "sourceId" : "26",
           "tags" : "Relationship"
@@ -643,25 +642,25 @@
           "type" : "image/png"
         } ],
         "sections" : [ {
-          "content" : "## Context\nTiqzy is Whitelabel ticket reselling software package owned by a Dutch entrepreneur and developed by a team in London that will work with the student team. The current version is linked to various API’s related to ticket sales. These API’s usually work with timeslot (since COVID). For example: Museum tickets now have a time specified at which the visitor can enter.\nThe company would like their software to be more suitable for mobile users (the ticket resellers will be the users), for example by displaying sales statistics. Students are invited to think about the direction in which this software will develop. They will be supported when it comes to things like making API connections.\nThe current software is entirely written in PHP.\n\n![](embed:Ticket-Reselling-Context)\n\n## System story\n\nThe Tiqzy platform is designed as a reseller system that allows businesses to sell tickets under their own brand. Tiqzy sets up microsites for resellers, such as hotels, museums, or other businesses, enabling them to manage and sell tickets through their own platform-branded microsite. The system provides resellers with tools to customize their microsite by adding logos, images, payment methods, and other relevant details. It offers flexibility in ticket pricing (full price, discounted, or free) and connects with external platforms via APIs.\n\nThe platform's goal is to support global scalability for discovery and selling, offering users an easy-to-navigate interface where they can select a country and city, view local ticket options, and purchase them seamlessly. Tiqzy aims to expand the platform by increasing the number of cities, thereby growing the user base. A core feature is its integration with external ticketing providers via API, ensuring up-to-date content is delivered to the app without manual upload. Stripe is used as the payment platform.\n\nTiqzy is looking to implement a cloud-based backend architecture that supports scalability as the platform's user base grows. Initially, the system will be designed to support a smaller user base averaging 5,000 users, with the ability to scale seamlessly to accommodate up to 50,000 users and beyond as demand increases. The goal is to have an infrastructure that can dynamically expand in response to user growth, ensuring that the platform remains fast and reliable at all stages.\n\nTheir design inspiration is drawn from similar systems like GetYourGuide.com and Tiqets.com with a goal to improve existing traditional user workflows. The system seeks to balance recognizable design elements with improved user experience, providing a streamlined, and intuitive ticketing experience.\n\n### Target User Group\n\nThe application is built for a wide range of users, from businesses looking to resell tickets to consumers seeking quick access to local events and attractions. The target users are both the companies setting up the reseller platforms and the end consumers purchasing tickets. The initial audience is expected to be between 5,000 and 15,000 users, with growth dependent on the addition of new cities and countries to the platform.\n\n### Platform Goals and Features\n\nCustomizable reseller microsites where businesses can manage ticket sales.\n\nGlobal scalability, allowing users to select the country and city they would like to purchase tickets at and view relevant venue ticket offerings.\n\nAPI integration for seamless content delivery from external providers.\n\nStripe payment integration for easy transactions.\n\nUser-friendly design, inspired by GetYourGuide.com and Tiqets.com, with flexibility in navigation and ticket advertising.\n\nThis platform seeks to establish itself as a competitive player in the ticketing industry, offering improvements on existing systems through enhanced scalability and ease of use.",
+          "content" : "## Context\r\nTiqzy is Whitelabel ticket reselling software package owned by a Dutch entrepreneur and developed by a team in London that will work with the student team. The current version is linked to various API’s related to ticket sales. These API’s usually work with timeslot (since COVID). For example: Museum tickets now have a time specified at which the visitor can enter.\r\nThe company would like their software to be more suitable for mobile users (the ticket resellers will be the users), for example by displaying sales statistics. Students are invited to think about the direction in which this software will develop. They will be supported when it comes to things like making API connections.\r\nThe current software is entirely written in PHP.\r\n\r\n![](embed:Ticket-Reselling-Context)\r\n\r\n## System story\r\n\r\nThe Tiqzy platform is designed as a reseller system that allows businesses to sell tickets under their own brand. Tiqzy sets up microsites for resellers, such as hotels, museums, or other businesses, enabling them to manage and sell tickets through their own platform-branded microsite. The system provides resellers with tools to customize their microsite by adding logos, images, payment methods, and other relevant details. It offers flexibility in ticket pricing (full price, discounted, or free) and connects with external platforms via APIs.\r\n\r\nThe platform's goal is to support global scalability for discovery and selling, offering users an easy-to-navigate interface where they can select a country and city, view local ticket options, and purchase them seamlessly. Tiqzy aims to expand the platform by increasing the number of cities, thereby growing the user base. A core feature is its integration with external ticketing providers via API, ensuring up-to-date content is delivered to the app without manual upload. Stripe is used as the payment platform.\r\n\r\nTiqzy is looking to implement a cloud-based backend architecture that supports scalability as the platform's user base grows. Initially, the system will be designed to support a smaller user base averaging 5,000 users, with the ability to scale seamlessly to accommodate up to 50,000 users and beyond as demand increases. The goal is to have an infrastructure that can dynamically expand in response to user growth, ensuring that the platform remains fast and reliable at all stages.\r\n\r\nTheir design inspiration is drawn from similar systems like GetYourGuide.com and Tiqets.com with a goal to improve existing traditional user workflows. The system seeks to balance recognizable design elements with improved user experience, providing a streamlined, and intuitive ticketing experience.\r\n\r\n### Target User Group\r\n\r\nThe application is built for a wide range of users, from businesses looking to resell tickets to consumers seeking quick access to local events and attractions. The target users are both the companies setting up the reseller platforms and the end consumers purchasing tickets. The initial audience is expected to be between 5,000 and 15,000 users, with growth dependent on the addition of new cities and countries to the platform.\r\n\r\n### Platform Goals and Features\r\n\r\nCustomizable reseller microsites where businesses can manage ticket sales.\r\n\r\nGlobal scalability, allowing users to select the country and city they would like to purchase tickets at and view relevant venue ticket offerings.\r\n\r\nAPI integration for seamless content delivery from external providers.\r\n\r\nStripe payment integration for easy transactions.\r\n\r\nUser-friendly design, inspired by GetYourGuide.com and Tiqets.com, with flexibility in navigation and ticket advertising.\r\n\r\nThis platform seeks to establish itself as a competitive player in the ticketing industry, offering improvements on existing systems through enhanced scalability and ease of use.",
           "filename" : "01_context.md",
           "format" : "Markdown",
           "order" : 1,
           "title" : ""
         }, {
-          "content" : "\n## Requirements\n### Functional requirements\n\nThese are the basic features and functions the Tiqzy app needs to have to work properly:\n\n**Reseller Microsite Setup**: Resellers are the platforms that want to sell tickets through the ticket platforms. A microsite is mini website that is linked to a reseller Id, when used in the URL, directs users to a website with the reseller’s tickets that they want to sell. The system must allow businesses to create their own ticket-selling microsite, where they can add their brand logos, images, and payment options.\n\n\n\n**Country and City Selection**: Users should be able to select their country and city in the app to view tickets for events or attractions available in their area. These tickets will be grouped by activity type. For example, all tickets for boat activities in Amsterdam will be grouped together, and bus tours will also be grouped together differently.\n\n\n\n**Ticket Browsing and Purchase**: The app must allow users to browse through available tickets, view details, and purchase tickets directly. It will also allow users to sort through tickets by activity, country, cities etc.\n\n\n\n\n\n**Payment Integration**: The platform must integrate with Stripe for secure online payments, allowing users to pay for tickets easily and safely.\n\n\n\n**API Integration**: The system must connect to external ticket providers (via API) to automatically update ticket listings, prices, and availability in real-time. These APIs will also receive information from the businesses like museums which want to sell their tickets through the Tiqzy platform.\n\n\n\n**Ticket Management Dashboard**: Resellers must have access to a dashboard where they can manage their tickets (e.g., adding, removing, or editing tickets) and track sales and bookings.\n\n\n\n**Ticket Price Management**: The system must support different ticket pricing options, such as full price, discounted, or free tickets, depending on the reseller's preferences.\n\n\n**Booking Overview**: Resellers should be able to see a list of all booked tickets, \tincluding information like who bought them and how much they paid. This will be \tlinked to their accounts which allow for more visibility.\n\n\n### Non-Functional requirements\n\n**Scalability**: The application must scale horizontally, to accommodate a growing number of users and transactions without performance loss. To achieve this, load balancing will be implemented with the application to distribute traffic efficiently.\n\n\n\n**Performance**: The application should perform well on any smartphone, with low loading speeds under normal network conditions. The overall user experience while navigating the application must be smooth, and interactions should be performed without lag.\n\n\n\n**User-friendly design**: The app should be designed a simple and easy-to-use way, with a clean layout, drawing inspiration from other ticket (re)selling platforms like GetYourGuide or Tiqets.\n\n\n\n**Security**: The application must protect all user data by using encryption (SSL/TLS) and secure authentication mechanisms (OAuth 2.0, JWT tokens). The payment processing, done through Stripe, must also implement security measures.\n\n\n\n**Availability**: The app should be highly available and reliable, to ensure a minimum level of downtime. To achieve this, logging, error handling, and failover mechanisms will be implemented within the application.\n\n\n\n**Integration with external platforms**: The application must integrate smoothly with external ticketing platforms via their APIs, to ensure easy and fast updates to ticket information.\n\n\n\n**Localization**: The app should be able to support multiple countries and cities, and it should be adaptable to include more locations if needed. For each location, all tickets for all events located there should be featured on the page.\n\n### Architecture Diagram\n\n![Tiqzy Architecture Diagram](img/Project_Architecture.png)\n\nThis diagram shows the high-level architecture of the Tiqzy platform. The system is designed to be cloud-based, with a frontend application that interacts with a backend API. The backend API connects to a database to store ticket information and user data. The system also integrates with external ticketing platforms via APIs to provide up-to-date ticket listings. The application is hosted on a cloud platform, which allows for scalability and high availability.\n\nThe client requests are authenticated and go through RabbitMQ, which acts as a message broker to distribute the requests to the appropriate services. The services are containerized using Docker and orchestrated with OpenShift, which allows for easy deployment and scaling of the application. The system is monitored using Prometheus and Grafana to track performance and ensure reliability.\n\nNotice the two API's that are outside of the system - Tiqzy's ticketing API and Stripe's payment API. These are external services that the Tiqzy platform integrates with to provide ticket listings and payment processing.",
+          "content" : "\r\n## Requirements\r\n### Functional requirements\r\n\r\nThese are the basic features and functions the Tiqzy app needs to have to work properly:\r\n\r\n**Reseller Microsite Setup**: Resellers are the platforms that want to sell tickets through the ticket platforms. A microsite is mini website that is linked to a reseller Id, when used in the URL, directs users to a website with the reseller’s tickets that they want to sell. The system must allow businesses to create their own ticket-selling microsite, where they can add their brand logos, images, and payment options.\r\n\r\n\r\n\r\n**Country and City Selection**: Users should be able to select their country and city in the app to view tickets for events or attractions available in their area. These tickets will be grouped by activity type. For example, all tickets for boat activities in Amsterdam will be grouped together, and bus tours will also be grouped together differently.\r\n\r\n\r\n\r\n**Ticket Browsing and Purchase**: The app must allow users to browse through available tickets, view details, and purchase tickets directly. It will also allow users to sort through tickets by activity, country, cities etc.\r\n\r\n\r\n\r\n\r\n\r\n**Payment Integration**: The platform must integrate with Stripe for secure online payments, allowing users to pay for tickets easily and safely.\r\n\r\n\r\n\r\n**API Integration**: The system must connect to external ticket providers (via API) to automatically update ticket listings, prices, and availability in real-time. These APIs will also receive information from the businesses like museums which want to sell their tickets through the Tiqzy platform.\r\n\r\n\r\n\r\n**Ticket Management Dashboard**: Resellers must have access to a dashboard where they can manage their tickets (e.g., adding, removing, or editing tickets) and track sales and bookings.\r\n\r\n\r\n\r\n**Ticket Price Management**: The system must support different ticket pricing options, such as full price, discounted, or free tickets, depending on the reseller's preferences.\r\n\r\n\r\n**Booking Overview**: Resellers should be able to see a list of all booked tickets, \tincluding information like who bought them and how much they paid. This will be \tlinked to their accounts which allow for more visibility.\r\n\r\n\r\n### Non-Functional requirements\r\n\r\n**Scalability**: The application must scale horizontally, to accommodate a growing number of users and transactions without performance loss. To achieve this, load balancing will be implemented with the application to distribute traffic efficiently.\r\n\r\n\r\n\r\n**Performance**: The application should perform well on any smartphone, with low loading speeds under normal network conditions. The overall user experience while navigating the application must be smooth, and interactions should be performed without lag.\r\n\r\n\r\n\r\n**User-friendly design**: The app should be designed a simple and easy-to-use way, with a clean layout, drawing inspiration from other ticket (re)selling platforms like GetYourGuide or Tiqets.\r\n\r\n\r\n\r\n**Security**: The application must protect all user data by using encryption (SSL/TLS) and secure authentication mechanisms (OAuth 2.0, JWT tokens). The payment processing, done through Stripe, must also implement security measures.\r\n\r\n\r\n\r\n**Availability**: The app should be highly available and reliable, to ensure a minimum level of downtime. To achieve this, logging, error handling, and failover mechanisms will be implemented within the application.\r\n\r\n\r\n\r\n**Integration with external platforms**: The application must integrate smoothly with external ticketing platforms via their APIs, to ensure easy and fast updates to ticket information.\r\n\r\n\r\n\r\n**Localization**: The app should be able to support multiple countries and cities, and it should be adaptable to include more locations if needed. For each location, all tickets for all events located there should be featured on the page.\r\n\r\n### Architecture Diagram\r\n\r\n![Tiqzy Architecture Diagram](img/Project_Architecture.png)\r\n\r\nThis diagram shows the high-level architecture of the Tiqzy platform. The system is designed to be cloud-based, with a frontend application that interacts with a backend API. The backend API connects to a database to store ticket information and user data. The system also integrates with external ticketing platforms via APIs to provide up-to-date ticket listings. The application is hosted on a cloud platform, which allows for scalability and high availability.\r\n\r\nThe client requests are authenticated and go through RabbitMQ, which acts as a message broker to distribute the requests to the appropriate services. The services are containerized using Docker and orchestrated with OpenShift, which allows for easy deployment and scaling of the application. The system is monitored using Prometheus and Grafana to track performance and ensure reliability.\r\n\r\nNotice the two API's that are outside of the system - Tiqzy's ticketing API and Stripe's payment API. These are external services that the Tiqzy platform integrates with to provide ticket listings and payment processing.",
           "filename" : "02_requirements.md",
           "format" : "Markdown",
           "order" : 2,
           "title" : ""
         }, {
-          "content" : "## System Model\n\n### MicroService Tournament\n\n#### Responsibility\n+ Create and retrieve instances of tournaments\n+ Facilitate Registration\n+ Facilitatie creating Tournament schema\n+ Store Tournament specific info; like poules, bouts, references to fencers and referees\n#### Interface\n+ createTournament\n+ registerParticipant (fencer of referee)\n+ getFencersPerCategory\n+ createSchemaPerCategory\n+ registerResults\n#### Data\n+ Circuit\n+ Tournament\n+ Poule\n+ Bout\n\n### Microservice Fencer\n\n\n## Entities\n\n| Entity        | Description                                                                  | Attributes                                 |\n|---------------|------------------------------------------------------------------------------|--------------------------------------------|\n| Client        | Person who buys tickets for events or attractions                           | Name, Email, Password, Address, Payment Information, Tickets |\n| Ticket        | A ticket for an event or attraction                                          | Event, Price, Date, Location               |\n| Event         | An event or attraction that tickets can be bought for                        | Name, Description, Location, Date, Tickets          |\n| Reseller      | A platform that sells tickets for events or attractions                      | Name, Logo, Website                        |\n| Payment       | A payment for a ticket                                                      | Amount, Date, Payment Method, Payment Status |\n| Provider      | A platform that provides tickets for events or attractions via API           | Name, URL, API, Enabled, Token             |\n| Admin         | A person who manages the system                                              | Name, Email, Password                      |",
+          "content" : "## System Model\r\n\r\n### Authentication Service\r\n\r\n#### Responsibility\r\n+ Manage user authentication\r\n+ Manage user roles\r\n+ Manage user permissions\r\n+ Manage user sessions\r\n+ Manage password reset and change\r\n\r\n#### Interface\r\n+ login\r\n+ logout\r\n+ register\r\n+ changePassword\r\n+ resetPassword\r\n\r\n#### Data\r\n+ User\r\n+ Role\r\n+ Token\r\n\r\n### Payment Service\r\n\r\n#### Responsibility\r\n+ Create payment\r\n+ Manage payment methods\r\n+ Manage payment status\r\n+ Access payment history\r\n+ Retrieve payment information\r\n+ Handle callback from payment gateway\r\n+ Store and manage payment information\r\n\r\n#### Interface\r\n+ createPayment\r\n+ getPaymentMethods\r\n+ getPayment\r\n+ getPaymentHistory\r\n+ handleCallback\r\n+ getPaymentInformation\r\n\r\n#### Data\r\n+ Payment\r\n+ PaymentMethod\r\n+ PaymentStatus\r\n+ PaymentInformation\r\n\r\n### Ordering Service\r\n\r\n#### Responsibility\r\n+ Create order\r\n+ Manage order status\r\n+ Access order history\r\n+ Retrieve order information\r\n+ Handle order cancellation\r\n\r\n#### Interface\r\n+ createOrder\r\n+ getOrder\r\n+ getOrderHistory\r\n+ cancelOrder\r\n\r\n#### Data\r\n+ Order\r\n+ OrderStatus\r\n\r\n### Ticket Service\r\n+ Retrieve tickets from provider\r\n+ Manage ticket availability\r\n+ Get Ticket information\r\n+ Get Ticket availability\r\n+ Generate Apple Wallet Pass\r\n\r\n#### Interface\r\n+ getTicketsFromProvider\r\n+ getTicket\r\n+ getTicketAvailability\r\n+ generateAppleWalletPass\r\n\r\n#### Data\r\n+ Ticket\r\n+ TicketAvailability\r\n+ AppleWalletPass\r\n\r\n\r\n## Entities\r\n\r\n| Entity        | Description                                                                  | Attributes                                 |\r\n|---------------|------------------------------------------------------------------------------|--------------------------------------------|\r\n| User          | Person who buys tickets for events or attractions                           | First Name, Last Name, Email, Password, Payment Information, Tickets, Role, Permission, Tokens |\r\n| Ticket        | A ticket for an event or attraction                                          | Event Name, Price, Date, Location               |\r\n| Payment       | A payment for a ticket                                                      | Amount, Date, Payment Method, Payment Status, Payment Method, Payment Information |\r\n| Payment Status | The status of a payment                                                      | Pending, Success, Failed, Refunded, Cancelled |\r\n| Payment Method | A method of payment                                                          | Credit Card, Debit Card, PayPal, Bank Transfer, iDEAL, PayPal |\r\n| Payment Information | Information about a payment method                                       | Credit Card Number, Expiry Date, CVV, Name on Card, Bank Account Number, Bank Account Name, Bank Name, Bank Branch, Bank Branch Code, Bank Account Type, Bank Account Holder Name, Bank Account Holder Address, Bank Account Holder Phone Number, Bank Account Holder Email |\r\n| Order         | An order for tickets                                                         | Tickets, Date, Status, Payment, User, Order Number |\r\n| Order Status  | The status of an order                                                       | Pending, Confirmed, Cancelled, Refunded, Completed |\r\n| Role          | A role for a user                                                            | Admin, User, Reseller, Support |\r\n| Token         | A token for user authentication                                               | Access Token, Refresh Token, Expiry Date, User |\r\n| Ticket Availability | The availability of tickets for an event or attraction                    | Event Name, Date, Location, Available Tickets, Total Tickets |\r\n| Apple Wallet Pass | A pass for Apple Wallet                                                     | Pass Type, Pass Information |",
           "filename" : "03_systemModel.md",
           "format" : "Markdown",
           "order" : 3,
           "title" : ""
         }, {
-          "content" : "## Business process\n\n### Registration\n\n#### Preregister\n![preregistration proces](./img/preregistration_bpm.png \"preregistration proces\")\n\n#### Pay\n\n#### Register\n\n### Fencing\n\n#### Create Tournament Schedule\n\n#### Fence\n\n#### Process results\n\n### Process and Publish endresults",
+          "content" : "## Business process\r\n\r\n### Registration\r\n\r\n#### Preregister\r\n![preregistration proces](./img/preregistration_bpm.png \"preregistration proces\")\r\n\r\n#### Pay\r\n\r\n#### Register\r\n\r\n### Fencing\r\n\r\n#### Create Tournament Schedule\r\n\r\n#### Fence\r\n\r\n#### Process results\r\n\r\n### Process and Publish endresults",
           "filename" : "04_businessProcess.md",
           "format" : "Markdown",
           "order" : 4,
@@ -673,25 +672,25 @@
           "order" : 5,
           "title" : ""
         }, {
-          "content" : "## Application from a quality perspective\n\n\n### Validation\n (are we building the right system)\n- feedback on the requirements -- meeting\n- user testing\n- retrospective/demo\n- - prototype\n- wiremocks\n\n### Verification \n(are we building the system right)\n- unittests\n- integration testing\n- CDC testing\n- end2end~~\n\n- Static code check\n\n\n### Exploration\n(how can the system be abused/used in other ways)\n- pen test/ security test\n- user testing \n\n\n\n",
+          "content" : "## Application from a quality perspective\r\n\r\n\r\n### Validation\r\n (are we building the right system)\r\n- feedback on the requirements -- meeting\r\n- user testing\r\n- retrospective/demo\r\n- - prototype\r\n- wiremocks\r\n\r\n### Verification \r\n(are we building the system right)\r\n- unittests\r\n- integration testing\r\n- CDC testing\r\n- end2end~~\r\n\r\n- Static code check\r\n\r\n\r\n### Exploration\r\n(how can the system be abused/used in other ways)\r\n- pen test/ security test\r\n- user testing \r\n\r\n\r\n\r\n",
           "filename" : "06_testplan.md",
           "format" : "Markdown",
           "order" : 6,
           "title" : ""
         }, {
-          "content" : "## Quality process\n- 2x meetings, 1 with client together with client and 1 with just the team to make sure we are up to date, and we are on the same page with the client and ask for feedback. \n\n- Both mobile and backend team will be working with one Trello board which will help us to know what everyone is doing and keeps us updated.  \n\n- We will be reviewing each other's code to make sure that everyone is using the same coding standards and that there is not any breaking code pushed to the repository. \n\n- Team members will approve pull requests when the code is good, and the code can then be merged. \n\n- We will be consulting with the tech lead from the client side on issues we need help with that are related to the client ticketing system. ",
+          "content" : "## Quality process\r\n- 2x meetings, 1 with client together with client and 1 with just the team to make sure we are up to date, and we are on the same page with the client and ask for feedback. \r\n\r\n- Both mobile and backend team will be working with one Trello board which will help us to know what everyone is doing and keeps us updated.  \r\n\r\n- We will be reviewing each other's code to make sure that everyone is using the same coding standards and that there is not any breaking code pushed to the repository. \r\n\r\n- Team members will approve pull requests when the code is good, and the code can then be merged. \r\n\r\n- We will be consulting with the tech lead from the client side on issues we need help with that are related to the client ticketing system. ",
           "filename" : "07_qualityProcess.md",
           "format" : "Markdown",
           "order" : 7,
           "title" : ""
         }, {
-          "content" : "## Risks\n| Risk                                                                    | Mitigation                                            |\n|-------------------------------------------------------------------------|---------------------------------------------------------|\n| Complexity of how the hosting of the microsites are going to work       | Talk with their developer and learn how they do it already|\n| Complexity of Openshift                                                 | training of the developers and more research            |\n| Non-functional requirements are vague (customer has no real usage data) | Make some assumptions together with customer and revisit|\n| The development time is too short                                       | Prioritize the most important features and deliver them |\n| There is a lot of potential simultaneous users                          | Load testing and scaling up the system                  |\n| Team member is sick or unavailable                                      | Make sure that the team is cross-functional              |\n",
+          "content" : "## Risks\r\n| Risk                                                                    | Mitigation                                            |\r\n|-------------------------------------------------------------------------|---------------------------------------------------------|\r\n| Complexity of how the hosting of the microsites are going to work       | Talk with their developer and learn how they do it already|\r\n| Complexity of Openshift                                                 | training of the developers and more research            |\r\n| Non-functional requirements are vague (customer has no real usage data) | Make some assumptions together with customer and revisit|\r\n| The development time is too short                                       | Prioritize the most important features and deliver them |\r\n| There is a lot of potential simultaneous users                          | Load testing and scaling up the system                  |\r\n| Team member is sick or unavailable                                      | Make sure that the team is cross-functional              |\r\n",
           "filename" : "09_risks.md",
           "format" : "Markdown",
           "order" : 8,
           "title" : ""
         }, {
-          "content" : "## Dictionary\n\n| term                  | meaning                                                                                              |\n|-----------------------|------------------------------------------------------------------------------------------------------|\n|client                 | A person who buys tickets for events or attractions.                                                 |\n|client application     | An application that allows clients to buy tickets for events or attractions.                         |\n|ticket                 | A ticket for an event or attraction.                                                                 |\n|provider               | A platform that provides tickets for events or attractions via API.                                  |\n|reseller               | A platform that sells tickets for events or attractions.                                             |\n|admin                  | A person who manages the system.                                                                     |\n|microsite              | A small website that specializes in selling tickets for events or attractions in name of a reseller. |\n|CMS                    | Content Management System.                                                                           |\n|Stripe                 | A payment platform.                                                                                  |\n|API                    | Application Programming Interface.                                                                   |\n|token                  | A unique identifier used to authenticate with a provider's API.                                      |\n|event                  | An event or attraction that tickets can be bought for.                                               |\n|platform               | The system that provides the management of tickets and microsites.                                   |\n",
+          "content" : "## Dictionary\r\n\r\n| term                  | meaning                                                                                              |\r\n|-----------------------|------------------------------------------------------------------------------------------------------|\r\n|client                 | A person who buys tickets for events or attractions.                                                 |\r\n|client application     | An application that allows clients to buy tickets for events or attractions.                         |\r\n|ticket                 | A ticket for an event or attraction.                                                                 |\r\n|provider               | A platform that provides tickets for events or attractions via API.                                  |\r\n|reseller               | A platform that sells tickets for events or attractions.                                             |\r\n|admin                  | A person who manages the system.                                                                     |\r\n|microsite              | A small website that specializes in selling tickets for events or attractions in name of a reseller. |\r\n|CMS                    | Content Management System.                                                                           |\r\n|Stripe                 | A payment platform.                                                                                  |\r\n|API                    | Application Programming Interface.                                                                   |\r\n|token                  | A unique identifier used to authenticate with a provider's API.                                      |\r\n|event                  | An event or attraction that tickets can be bought for.                                               |\r\n|platform               | The system that provides the management of tickets and microsites.                                   |\r\n",
           "filename" : "10_dictionary.md",
           "format" : "Markdown",
           "order" : 9,
@@ -709,7 +708,7 @@
         "destinationId" : "5",
         "id" : "38",
         "properties" : {
-          "structurizr.dsl.identifier" : "5e63e930-e7e3-43dc-8fb3-59df5b097835"
+          "structurizr.dsl.identifier" : "634ddd81-f53c-471b-9770-ed9d5c46ab5a"
         },
         "sourceId" : "23",
         "tags" : "Relationship"
@@ -833,7 +832,7 @@
       } ]
     }, {
       "automaticLayout" : {
-        "applied" : true,
+        "applied" : false,
         "edgeSeparation" : 0,
         "implementation" : "Graphviz",
         "nodeSeparation" : 300,
@@ -843,30 +842,26 @@
       },
       "containerId" : "13",
       "description" : "Components within the Authentication Service container",
-      "dimensions" : {
-        "height" : 2611,
-        "width" : 1640
-      },
       "elements" : [ {
         "id" : "14",
-        "x" : 595,
-        "y" : 219
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "15",
-        "x" : 595,
-        "y" : 819
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "16",
-        "x" : 220,
-        "y" : 1419
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "17",
-        "x" : 970,
-        "y" : 1419
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "18",
-        "x" : 970,
-        "y" : 2019
+        "x" : 0,
+        "y" : 0
       } ],
       "externalContainerBoundariesVisible" : false,
       "key" : "AuthService-Components",
@@ -884,7 +879,6 @@
     "configuration" : {
       "branding" : { },
       "lastSavedView" : "Ticket-Reselling-Containers",
-      "metadataSymbols" : "SquareBrackets",
       "styles" : {
         "elements" : [ {
           "color" : "#ffffff",
@@ -908,7 +902,7 @@
     },
     "containerViews" : [ {
       "automaticLayout" : {
-        "applied" : true,
+        "applied" : false,
         "edgeSeparation" : 0,
         "implementation" : "Graphviz",
         "nodeSeparation" : 300,
@@ -917,54 +911,50 @@
         "vertices" : false
       },
       "description" : "Containers diagram of the Tiqzy App.",
-      "dimensions" : {
-        "height" : 3191,
-        "width" : 3345
-      },
       "elements" : [ {
         "id" : "5",
-        "x" : 1124,
-        "y" : 800
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "6",
-        "x" : 220,
-        "y" : 800
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "7",
-        "x" : 220,
-        "y" : 1400
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "10",
-        "x" : 1499,
-        "y" : 2000
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "11",
-        "x" : 749,
-        "y" : 2600
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "13",
-        "x" : 2028,
-        "y" : 800
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "19",
-        "x" : 2028,
-        "y" : 1400
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "20",
-        "x" : 749,
-        "y" : 2000
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "21",
-        "x" : 1278,
-        "y" : 1400
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "22",
-        "x" : 2695,
-        "y" : 2000
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "23",
-        "x" : 1124,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       } ],
       "externalSoftwareSystemBoundariesVisible" : false,
       "key" : "Ticket-Reselling-Containers",
@@ -978,21 +968,13 @@
       }, {
         "id" : "41"
       }, {
-        "id" : "42",
-        "vertices" : [ {
-          "x" : 2628,
-          "y" : 1400
-        } ]
+        "id" : "42"
       }, {
         "id" : "44"
       }, {
         "id" : "45"
       }, {
-        "id" : "46",
-        "vertices" : [ {
-          "x" : 1128,
-          "y" : 1400
-        } ]
+        "id" : "46"
       }, {
         "id" : "47"
       }, {
