@@ -26,6 +26,7 @@ workspace {
             database = container "Database" {
                 ticketDb = component "Ticket Database"
                 salesStatsDb = component "Sales Statistics Database"
+                wishlistDb = component "Wishlist Database"
             }
             tableStorage = container "Table Storage" {
                 description "Azure Table Storage"
@@ -70,6 +71,9 @@ workspace {
             orderingService = container "Ordering Service" {
                 description "Handles internal orders of tickets and operations with databases"
             }
+            wishlistService = container "Wishlist Service" {
+                description "Handles the wishlist operations"
+            }
         }
 
         externalTicketingAPI = softwareSystem "External Ticketing API" {
@@ -107,6 +111,7 @@ workspace {
         webApp -> paymentService
         grafana -> webApp "Scrapes metrics and statistics"
         mobileApp -> orderingService
+        mobileApp -> wishlistService
         authService -> externalTicketingAPI "Validates tickets"
         paymentService -> externalTicketingAPI "Processes payments"
         webApp -> orderingService "Checks ticket availability"
@@ -118,6 +123,8 @@ workspace {
         ticketService -> ticketDb
         mobileApp -> ticketService
         paymentService -> paymentAPI
+        wishlistService -> wishlistDb
+        wishlistService -> ticketService
 
         //connections grafana
         grafanaWebApp -> metricsService
