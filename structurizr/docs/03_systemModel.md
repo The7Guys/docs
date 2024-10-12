@@ -84,6 +84,23 @@
 + AppleWalletPass
 
 
+### Wishlist Service
+
+#### Responsibility
++ Add item to wishlist
++ Remove item from wishlist
++ Retrieve wishlist items
++ Manage wishlist items
+
+#### Interface
++ addItem
++ removeItem
++ getItems
+
+#### Data
++ Wishlist
++ WishlistItem
+
 ## Entities
 
 | Entity        | Description                                                                  | Attributes                                 |
@@ -100,3 +117,5 @@
 | Token         | A token for user authentication                                               | Access Token, Refresh Token, Expiry Date, User |
 | Ticket Availability | The availability of tickets for an event or attraction                    | Event Name, Date, Location, Available Tickets, Total Tickets |
 | Apple Wallet Pass | A pass for Apple Wallet                                                     | Pass Type, Pass Information |
+| Wishlist      | A list of items that a user wants to buy in the future                       | Wishlist Items, User |
+| Wishlist Item | An item in a wishlist                                                        | Name, Description, Price, Image, URL |
