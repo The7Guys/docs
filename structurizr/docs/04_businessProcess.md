@@ -1,20 +1,5 @@
-## Business process
+## Business processes
 
-### Registration
+### Buying tickets
 
-#### Preregister
-![preregistration proces](./img/preregistration_bpm.png "preregistration proces")
-
-#### Pay
-
-#### Register
-
-### Fencing
-
-#### Create Tournament Schedule
-
-#### Fence
-
-#### Process results
-
-### Process and Publish endresults
+![Buying tickets process](./img/Buying-tickets-swimlane-flowchart.png "Buying tickets process")
