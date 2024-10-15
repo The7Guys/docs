@@ -3,8 +3,7 @@
   "description" : "Description",
   "documentation" : { },
   "id" : 1,
-  "lastModifiedAgent" : "structurizr-ui",
-  "lastModifiedDate" : "2024-10-12T16:40:02Z",
+  "lastModifiedDate" : "2024-10-15T14:02:44Z",
   "model" : {
     "people" : [ {
       "description" : "The user who resells tickets using the system. Wants to track sales statistics and manage tickets.",
@@ -19,7 +18,7 @@
         "destinationId" : "4",
         "id" : "33",
         "properties" : {
-          "structurizr.dsl.identifier" : "63e6c9fd-40e3-4681-8a14-002e94ea2064"
+          "structurizr.dsl.identifier" : "451fa1a9-ea09-4ea4-97d8-535d71f639c0"
         },
         "sourceId" : "1",
         "tags" : "Relationship"
@@ -38,7 +37,7 @@
         "destinationId" : "4",
         "id" : "34",
         "properties" : {
-          "structurizr.dsl.identifier" : "595939a2-842f-40b1-8822-a3ceaa03c8eb"
+          "structurizr.dsl.identifier" : "e945699e-e7bb-4b24-8e20-f0fbd5bd244d"
         },
         "sourceId" : "2",
         "tags" : "Relationship"
@@ -57,7 +56,7 @@
         "destinationId" : "4",
         "id" : "35",
         "properties" : {
-          "structurizr.dsl.identifier" : "19b0f3c4-65a6-4d00-b8e3-bec2e192b378"
+          "structurizr.dsl.identifier" : "2aa412a4-39b7-4c27-861e-1193ccd78982"
         },
         "sourceId" : "3",
         "tags" : "Relationship"
@@ -66,7 +65,7 @@
         "destinationId" : "26",
         "id" : "36",
         "properties" : {
-          "structurizr.dsl.identifier" : "6e082af8-8413-4af6-9710-155c52702043"
+          "structurizr.dsl.identifier" : "767d342c-dc9c-490b-844f-377e1eaddbc8"
         },
         "sourceId" : "3",
         "tags" : "Relationship"
@@ -86,7 +85,7 @@
           "destinationId" : "20",
           "id" : "37",
           "properties" : {
-            "structurizr.dsl.identifier" : "828ed708-ec54-4d91-a46d-560250c33b62"
+            "structurizr.dsl.identifier" : "98cfff35-1336-44b8-b5cf-f98f025eb022"
           },
           "sourceId" : "5",
           "tags" : "Relationship"
@@ -95,7 +94,7 @@
           "destinationId" : "22",
           "id" : "45",
           "properties" : {
-            "structurizr.dsl.identifier" : "20a92f3e-f896-42fe-994d-fec4831029e5"
+            "structurizr.dsl.identifier" : "0c179ce4-3a33-4407-b3b8-bef8f906c37b"
           },
           "sourceId" : "5",
           "tags" : "Relationship"
@@ -104,7 +103,7 @@
           "destinationId" : "21",
           "id" : "46",
           "properties" : {
-            "structurizr.dsl.identifier" : "8e868909-4780-425a-aef0-4e89624279ff"
+            "structurizr.dsl.identifier" : "9a875040-1764-46e1-b6d3-28a7cebd2c60"
           },
           "sourceId" : "5",
           "tags" : "Relationship"
@@ -122,7 +121,7 @@
           "destinationId" : "22",
           "id" : "40",
           "properties" : {
-            "structurizr.dsl.identifier" : "992d5070-83d9-4a18-bfda-736af4ae560f"
+            "structurizr.dsl.identifier" : "133dc8a4-eba7-4b5d-8a65-821666b7f562"
           },
           "sourceId" : "6",
           "tags" : "Relationship"
@@ -130,7 +129,7 @@
           "destinationId" : "23",
           "id" : "41",
           "properties" : {
-            "structurizr.dsl.identifier" : "55a49d97-873c-4bf0-945d-7e99c4f4a653"
+            "structurizr.dsl.identifier" : "8f25341b-5587-4cfb-9aad-3459965e346a"
           },
           "sourceId" : "6",
           "tags" : "Relationship"
@@ -138,7 +137,7 @@
           "destinationId" : "21",
           "id" : "55",
           "properties" : {
-            "structurizr.dsl.identifier" : "42a2536d-bfec-4940-a056-86d3f113a02b"
+            "structurizr.dsl.identifier" : "c5fb3042-101f-41b4-b98c-375aa5e9c0ca"
           },
           "sourceId" : "6",
           "tags" : "Relationship"
@@ -217,7 +216,7 @@
             "destinationId" : "16",
             "id" : "67",
             "properties" : {
-              "structurizr.dsl.identifier" : "888e0a5f-f17d-4958-bfe3-5830b6d05369"
+              "structurizr.dsl.identifier" : "da888380-bcdb-4039-af41-99dd5fcb8051"
             },
             "sourceId" : "15",
             "tags" : "Relationship"
@@ -236,7 +235,7 @@
             "destinationId" : "17",
             "id" : "68",
             "properties" : {
-              "structurizr.dsl.identifier" : "ae747785-ca87-491d-b500-3f861b751dae"
+              "structurizr.dsl.identifier" : "0e92e5ba-44f5-4080-92c1-afc69274b104"
             },
             "sourceId" : "16",
             "tags" : "Relationship"
@@ -245,7 +244,7 @@
             "destinationId" : "18",
             "id" : "69",
             "properties" : {
-              "structurizr.dsl.identifier" : "d7dfdb04-6c78-4574-ad81-ae4cacf9b0fb"
+              "structurizr.dsl.identifier" : "fe3323ab-4140-4832-8b1c-a968c3c84bd7"
             },
             "sourceId" : "16",
             "tags" : "Relationship"
@@ -273,7 +272,7 @@
             "destinationId" : "19",
             "id" : "70",
             "properties" : {
-              "structurizr.dsl.identifier" : "69029a5f-1280-41fb-aa80-20acb65f4132"
+              "structurizr.dsl.identifier" : "8b50f880-c917-417b-a7f8-b4603de64582"
             },
             "sourceId" : "18",
             "tags" : "Relationship"
@@ -301,7 +300,7 @@
           "destinationId" : "24",
           "id" : "42",
           "properties" : {
-            "structurizr.dsl.identifier" : "e6968e7c-292c-497d-87eb-51092978a2cc"
+            "structurizr.dsl.identifier" : "018d9b99-9819-42cb-9389-9c0548832e70"
           },
           "sourceId" : "14",
           "tags" : "Relationship"
@@ -320,7 +319,7 @@
           "destinationId" : "24",
           "id" : "44",
           "properties" : {
-            "structurizr.dsl.identifier" : "036c361c-524b-4bfe-9113-1c2987bddbc7"
+            "structurizr.dsl.identifier" : "ac1587cc-b7b6-4e82-b320-3d3de497d0d4"
           },
           "sourceId" : "20",
           "tags" : "Relationship"
@@ -328,7 +327,7 @@
           "destinationId" : "25",
           "id" : "56",
           "properties" : {
-            "structurizr.dsl.identifier" : "cba7c3c9-f829-4e49-83de-7ec34789a974"
+            "structurizr.dsl.identifier" : "0f74f405-eb40-4e7c-9977-e88a0a9eb9e2"
           },
           "sourceId" : "20",
           "tags" : "Relationship"
@@ -346,7 +345,7 @@
           "destinationId" : "13",
           "id" : "49",
           "properties" : {
-            "structurizr.dsl.identifier" : "2bbf60bd-6590-4da4-8fa0-76b31a406a8e"
+            "structurizr.dsl.identifier" : "78b0f73d-9c14-423e-bf00-d70cf2024862"
           },
           "sourceId" : "21",
           "tags" : "Relationship"
@@ -359,7 +358,7 @@
           "destinationId" : "8",
           "id" : "53",
           "properties" : {
-            "structurizr.dsl.identifier" : "a7c7b8b2-cee9-485f-905e-ac1de7c40edd"
+            "structurizr.dsl.identifier" : "2f73775c-b511-449b-b75e-586d1f7ae6b1"
           },
           "sourceId" : "21",
           "tags" : "Relationship"
@@ -383,7 +382,7 @@
           "destinationId" : "21",
           "id" : "47",
           "properties" : {
-            "structurizr.dsl.identifier" : "5ffb3c50-58e4-4385-8c31-d0846d74caac"
+            "structurizr.dsl.identifier" : "d5299a3a-23f8-46e9-aa5b-6ce0b080f27f"
           },
           "sourceId" : "22",
           "tags" : "Relationship"
@@ -392,7 +391,7 @@
           "destinationId" : "11",
           "id" : "48",
           "properties" : {
-            "structurizr.dsl.identifier" : "d76d0842-08f8-4c7e-9ef8-afdb866f5374"
+            "structurizr.dsl.identifier" : "1148f4b8-dc6d-4cc9-b961-7d455d552112"
           },
           "sourceId" : "22",
           "tags" : "Relationship"
@@ -400,7 +399,7 @@
           "destinationId" : "9",
           "id" : "51",
           "properties" : {
-            "structurizr.dsl.identifier" : "6f0e2f14-508a-4622-b29e-15a0e5fb2816"
+            "structurizr.dsl.identifier" : "0201adad-351b-4ae6-ab5e-b491a50048f1"
           },
           "sourceId" : "22",
           "tags" : "Relationship"
@@ -423,7 +422,7 @@
           "destinationId" : "10",
           "id" : "58",
           "properties" : {
-            "structurizr.dsl.identifier" : "4c671449-40e5-4868-baa4-a3cdd56b0f81"
+            "structurizr.dsl.identifier" : "9c073676-6509-45e1-a1af-bcf6edd33515"
           },
           "sourceId" : "23",
           "tags" : "Relationship"
@@ -436,7 +435,7 @@
           "destinationId" : "21",
           "id" : "60",
           "properties" : {
-            "structurizr.dsl.identifier" : "16562758-3e97-4649-b2b5-686c33337d3c"
+            "structurizr.dsl.identifier" : "f170c848-5e76-45ce-ba06-c880e6800955"
           },
           "sourceId" : "23",
           "tags" : "Relationship"
@@ -484,7 +483,7 @@
           "type" : "image/png"
         } ],
         "sections" : [ {
-          "content" : "## Context\r\nTiqzy is Whitelabel ticket reselling software package owned by a Dutch entrepreneur and developed by a team in London that will work with the student team. The current version is linked to various API’s related to ticket sales. These API’s usually work with timeslot (since COVID). For example: Museum tickets now have a time specified at which the visitor can enter.\r\nThe company would like their software to be more suitable for mobile users (the ticket resellers will be the users), for example by displaying sales statistics. Students are invited to think about the direction in which this software will develop. They will be supported when it comes to things like making API connections.\r\nThe current software is entirely written in PHP.\r\n\r\n![](embed:Ticket-Reselling-Context)\r\n\r\n## System story\r\n\r\nThe Tiqzy platform is designed as a reseller system that allows businesses to sell tickets under their own brand. Tiqzy sets up microsites for resellers, such as hotels, museums, or other businesses, enabling them to manage and sell tickets through their own platform-branded microsite. The system provides resellers with tools to customize their microsite by adding logos, images, payment methods, and other relevant details. It offers flexibility in ticket pricing (full price, discounted, or free) and connects with external platforms via APIs.\r\n\r\nThe platform's goal is to support global scalability for discovery and selling, offering users an easy-to-navigate interface where they can select a country and city, view local ticket options, and purchase them seamlessly. Tiqzy aims to expand the platform by increasing the number of cities, thereby growing the user base. A core feature is its integration with external ticketing providers via API, ensuring up-to-date content is delivered to the app without manual upload. Stripe is used as the payment platform.\r\n\r\nTiqzy is looking to implement a cloud-based backend architecture that supports scalability as the platform's user base grows. Initially, the system will be designed to support a smaller user base averaging 5,000 users, with the ability to scale seamlessly to accommodate up to 50,000 users and beyond as demand increases. The goal is to have an infrastructure that can dynamically expand in response to user growth, ensuring that the platform remains fast and reliable at all stages.\r\n\r\nTheir design inspiration is drawn from similar systems like GetYourGuide.com and Tiqets.com with a goal to improve existing traditional user workflows. The system seeks to balance recognizable design elements with improved user experience, providing a streamlined, and intuitive ticketing experience.\r\n\r\n### Target User Group\r\n\r\nThe application is built for a wide range of users, from businesses looking to resell tickets to consumers seeking quick access to local events and attractions. The target users are both the companies setting up the reseller platforms and the end consumers purchasing tickets. The initial audience is expected to be between 5,000 and 15,000 users, with growth dependent on the addition of new cities and countries to the platform.\r\n\r\n### Platform Goals and Features\r\n\r\nCustomizable reseller microsites where businesses can manage ticket sales.\r\n\r\nGlobal scalability, allowing users to select the country and city they would like to purchase tickets at and view relevant venue ticket offerings.\r\n\r\nAPI integration for seamless content delivery from external providers.\r\n\r\nStripe payment integration for easy transactions.\r\n\r\nUser-friendly design, inspired by GetYourGuide.com and Tiqets.com, with flexibility in navigation and ticket advertising.\r\n\r\nThis platform seeks to establish itself as a competitive player in the ticketing industry, offering improvements on existing systems through enhanced scalability and ease of use.",
+          "content" : "## Context\r\nTiqzy is Whitelabel ticket reselling software package owned by a Dutch entrepreneur and developed by a team in London that will work with the student team. The current version is linked to various API’s related to ticket sales. These API’s usually work with timeslot (since COVID). For example: Museum tickets now have a time specified at which the visitor can enter.\r\nThe company would like their software to be more suitable for mobile users (the ticket resellers will be the users), for example by displaying sales statistics. Students are invited to think about the direction in which this software will develop. They will be supported when it comes to things like making API connections.\r\nThe current software is entirely written in PHP.\r\n\r\n![](embed:Ticket-Reselling-Context)\r\n\r\n## System story\r\n\r\nThe Tiqzy platform is designed as a reseller system that allows businesses to sell tickets under their own brand. Tiqzy sets up microsites for resellers, such as hotels, museums, or other businesses, enabling them to manage and sell tickets through their own platform-branded microsite. The system provides resellers with tools to customize their microsite by adding logos, images, payment methods, and other relevant details. It offers flexibility in ticket pricing (full price, discounted, or free) and connects with external platforms via APIs.\r\n\r\nThe platform's goal is to support global scalability for discovery and selling, offering users an easy-to-navigate interface where they can select a country and city, view local ticket options, and purchase them seamlessly. Tiqzy aims to expand the platform by increasing the number of cities, thereby growing the user base. A core feature is its integration with external ticketing providers via API, ensuring up-to-date content is delivered to the app without manual upload. Stripe is used as the payment platform.\r\n\r\nTiqzy is looking to implement a cloud-based backend architecture that supports scalability as the platform's user base grows. Initially, the system will be designed to support a smaller user base averaging 5,000 users, with the ability to scale seamlessly to accommodate up to 50,000 users and beyond as demand increases. The goal is to have an infrastructure that can dynamically expand in response to user growth, ensuring that the platform remains fast and reliable at all stages.\r\n\r\nTheir design inspiration is drawn from similar systems like GetYourGuide.com and Tiqets.com with a goal to improve existing traditional user workflows. The system seeks to balance recognizable design elements with improved user experience, providing a streamlined, and intuitive ticketing experience.\r\n\r\n### Target User Group\r\n\r\nThe Tiqzy platform is designed for two primary groups of users: businesses setting up reseller microsites (resellers) and end consumers purchasing tickets through these microsites. These two groups have different needs, goals, and interactions with the platform. The initial user base is expected to range from 5,000 to 15,000, with the potential for growth as new cities and countries are added.\r\n\r\nTo better understand the target user group, the following personas illustrate the users.\r\n\r\n**Persona 1: Hannah, the Museum Ticket Reseller & Organizer**\r\n\r\n- Age: 45\r\n- Role: Director of Marketing at a historical museum in Amsterdam.\r\n- Goals:\r\n    - Increase museum ticket sales by extending the locations of where tickets are available for purchase.\r\n    - Ensure the museum’s brand and ticketing platform(s) maintain a high standard of professionalism and user experience.\r\n    - Use flexible pricing strategies for off-peak hours or special exhibits to boost attendance.\r\n- Frustrations:\r\n    - Poor integration between internal ticketing systems and reseller platforms can cause delays and booking differences.\r\n    - Difficulty in creating promotional campaigns or discounts that reach the right audience in a timely manner and the ability to be discovered.\r\n    - Concerned about overbooking during popular events and ensuring real-time updates to prevent customer frustration.\r\n- Needs from Tiqzy:\r\n    - Integration between the museum’s internal ticketing system and Tiqzy, allowing real-time updates of ticket availability and pricing.\r\n    - Customizable Microsites: Ability to create branded microsites that allow for customization and that which presents the museum’s branding and relevant information.\r\n    - Being able to track sales to view sales performances.\r\n    - The ability to offer special discounts or promotions and track the success of these offers.\r\n- User Behavior:\r\n    - Use Tiqzy’s dashboard to review sales data and make real-time adjustments to ticket availability.\r\n    - Regularly create promotional campaigns for special events and exhibitions.\r\n    - Prefers a clean, simple user interface that allows quick access to key features like sales reporting and ticket inventory management.\r\n\r\n**Persona 2: Ben, the Enthusiastic Museum Visitor (End Consumer)**\r\n\r\n- Age: 26\r\n- Role: Traveler across Europe\r\n- Goals:\r\n    - Easily find and purchase museum tickets while traveling, with no time wasted on complex booking processes.\r\n    - Explore local events and museums, with a focus on art, history, and culture.\r\n    - Find special deals or package offers that improves his travel experience.\r\n- Frustrations:\r\n    - Some ticketing platforms are slow, hard to navigate, or filled with outdated event information.\r\n    - Hidden fees or unexpected costs during checkout can lead to frustration and distrust.\r\n    - Finds it difficult to compare ticket options, especially when he’s unfamiliar with local events or venues.\r\n    - Sometimes ticket availability is unclear, which can lead to disappointment if the events are sold out or inaccessible.\r\n- Needs from Tiqzy:\r\n    - A simple search and navigation, mobile-friendly interface that allows him to quickly filter and find museum tickets and local events in the cities he’s visiting.\r\n    - Real-time updates of ticket availability and prices.\r\n    - A transparent and easy to use checkout process with trusted payment methods like Stripe that avoid hidden fees.\r\n    - Event recommendations based on his location and interests, helping him find the best museums and cultural events nearby.\r\n- User Behavior:\r\n    - Typically searches for tickets on his phone while traveling.\r\n    - Tends to make fast purchase decisions.\r\n    - Occasionally looks for bundled or discounted tickets to make the most of his visit, especially when he’s staying in a city for a limited time.\r\n\r\n### Platform Goals and Features\r\n\r\nCustomizable reseller microsites where businesses can manage ticket sales.\r\n\r\nGlobal scalability, allowing users to select the country and city they would like to purchase tickets at and view relevant venue ticket offerings.\r\n\r\nAPI integration for seamless content delivery from external providers.\r\n\r\nStripe payment integration for easy transactions.\r\n\r\nUser-friendly design, inspired by GetYourGuide.com and Tiqets.com, with flexibility in navigation and ticket advertising.\r\n\r\nThis platform seeks to establish itself as a competitive player in the ticketing industry, offering improvements on existing systems through enhanced scalability and ease of use.",
           "filename" : "01_context.md",
           "format" : "Markdown",
           "order" : 1,
@@ -502,7 +501,7 @@
           "order" : 3,
           "title" : ""
         }, {
-          "content" : "## Business process\r\n\r\n### Registration\r\n\r\n#### Preregister\r\n![preregistration proces](./img/preregistration_bpm.png \"preregistration proces\")\r\n\r\n#### Pay\r\n\r\n#### Register\r\n\r\n### Fencing\r\n\r\n#### Create Tournament Schedule\r\n\r\n#### Fence\r\n\r\n#### Process results\r\n\r\n### Process and Publish endresults",
+          "content" : "## Business processes\r\n\r\n### Buying tickets\r\n\r\n![Buying tickets process](./img/Buying-tickets-swimlane-flowchart.png \"Buying tickets process\")",
           "filename" : "04_businessProcess.md",
           "format" : "Markdown",
           "order" : 4,
@@ -591,7 +590,7 @@
           "destinationId" : "28",
           "id" : "61",
           "properties" : {
-            "structurizr.dsl.identifier" : "ba558e61-e3a7-4287-a0f6-a288c5a1e072"
+            "structurizr.dsl.identifier" : "72af6af8-1db3-411e-9913-c15a0ba16757"
           },
           "sourceId" : "27",
           "tags" : "Relationship"
@@ -599,7 +598,7 @@
           "destinationId" : "29",
           "id" : "62",
           "properties" : {
-            "structurizr.dsl.identifier" : "3a4adf4c-ff30-45f9-9abd-897908091ccf"
+            "structurizr.dsl.identifier" : "db58ac04-60b1-4e4f-ac43-781e1f7cf6a9"
           },
           "sourceId" : "27",
           "tags" : "Relationship"
@@ -617,7 +616,7 @@
           "destinationId" : "31",
           "id" : "63",
           "properties" : {
-            "structurizr.dsl.identifier" : "287084a7-0402-4615-b130-4f10cc3c240f"
+            "structurizr.dsl.identifier" : "056e1019-f09d-48d5-8fca-07c5cdabba58"
           },
           "sourceId" : "28",
           "tags" : "Relationship"
@@ -640,7 +639,7 @@
           "destinationId" : "32",
           "id" : "65",
           "properties" : {
-            "structurizr.dsl.identifier" : "d84b4ca1-e8fc-4d62-ad51-8896ba0b57b0"
+            "structurizr.dsl.identifier" : "15e165c6-68bb-4757-bf10-880308ad1ee4"
           },
           "sourceId" : "29",
           "tags" : "Relationship"
@@ -718,7 +717,7 @@
           "type" : "image/png"
         } ],
         "sections" : [ {
-          "content" : "## Context\r\nTiqzy is Whitelabel ticket reselling software package owned by a Dutch entrepreneur and developed by a team in London that will work with the student team. The current version is linked to various API’s related to ticket sales. These API’s usually work with timeslot (since COVID). For example: Museum tickets now have a time specified at which the visitor can enter.\r\nThe company would like their software to be more suitable for mobile users (the ticket resellers will be the users), for example by displaying sales statistics. Students are invited to think about the direction in which this software will develop. They will be supported when it comes to things like making API connections.\r\nThe current software is entirely written in PHP.\r\n\r\n![](embed:Ticket-Reselling-Context)\r\n\r\n## System story\r\n\r\nThe Tiqzy platform is designed as a reseller system that allows businesses to sell tickets under their own brand. Tiqzy sets up microsites for resellers, such as hotels, museums, or other businesses, enabling them to manage and sell tickets through their own platform-branded microsite. The system provides resellers with tools to customize their microsite by adding logos, images, payment methods, and other relevant details. It offers flexibility in ticket pricing (full price, discounted, or free) and connects with external platforms via APIs.\r\n\r\nThe platform's goal is to support global scalability for discovery and selling, offering users an easy-to-navigate interface where they can select a country and city, view local ticket options, and purchase them seamlessly. Tiqzy aims to expand the platform by increasing the number of cities, thereby growing the user base. A core feature is its integration with external ticketing providers via API, ensuring up-to-date content is delivered to the app without manual upload. Stripe is used as the payment platform.\r\n\r\nTiqzy is looking to implement a cloud-based backend architecture that supports scalability as the platform's user base grows. Initially, the system will be designed to support a smaller user base averaging 5,000 users, with the ability to scale seamlessly to accommodate up to 50,000 users and beyond as demand increases. The goal is to have an infrastructure that can dynamically expand in response to user growth, ensuring that the platform remains fast and reliable at all stages.\r\n\r\nTheir design inspiration is drawn from similar systems like GetYourGuide.com and Tiqets.com with a goal to improve existing traditional user workflows. The system seeks to balance recognizable design elements with improved user experience, providing a streamlined, and intuitive ticketing experience.\r\n\r\n### Target User Group\r\n\r\nThe application is built for a wide range of users, from businesses looking to resell tickets to consumers seeking quick access to local events and attractions. The target users are both the companies setting up the reseller platforms and the end consumers purchasing tickets. The initial audience is expected to be between 5,000 and 15,000 users, with growth dependent on the addition of new cities and countries to the platform.\r\n\r\n### Platform Goals and Features\r\n\r\nCustomizable reseller microsites where businesses can manage ticket sales.\r\n\r\nGlobal scalability, allowing users to select the country and city they would like to purchase tickets at and view relevant venue ticket offerings.\r\n\r\nAPI integration for seamless content delivery from external providers.\r\n\r\nStripe payment integration for easy transactions.\r\n\r\nUser-friendly design, inspired by GetYourGuide.com and Tiqets.com, with flexibility in navigation and ticket advertising.\r\n\r\nThis platform seeks to establish itself as a competitive player in the ticketing industry, offering improvements on existing systems through enhanced scalability and ease of use.",
+          "content" : "## Context\r\nTiqzy is Whitelabel ticket reselling software package owned by a Dutch entrepreneur and developed by a team in London that will work with the student team. The current version is linked to various API’s related to ticket sales. These API’s usually work with timeslot (since COVID). For example: Museum tickets now have a time specified at which the visitor can enter.\r\nThe company would like their software to be more suitable for mobile users (the ticket resellers will be the users), for example by displaying sales statistics. Students are invited to think about the direction in which this software will develop. They will be supported when it comes to things like making API connections.\r\nThe current software is entirely written in PHP.\r\n\r\n![](embed:Ticket-Reselling-Context)\r\n\r\n## System story\r\n\r\nThe Tiqzy platform is designed as a reseller system that allows businesses to sell tickets under their own brand. Tiqzy sets up microsites for resellers, such as hotels, museums, or other businesses, enabling them to manage and sell tickets through their own platform-branded microsite. The system provides resellers with tools to customize their microsite by adding logos, images, payment methods, and other relevant details. It offers flexibility in ticket pricing (full price, discounted, or free) and connects with external platforms via APIs.\r\n\r\nThe platform's goal is to support global scalability for discovery and selling, offering users an easy-to-navigate interface where they can select a country and city, view local ticket options, and purchase them seamlessly. Tiqzy aims to expand the platform by increasing the number of cities, thereby growing the user base. A core feature is its integration with external ticketing providers via API, ensuring up-to-date content is delivered to the app without manual upload. Stripe is used as the payment platform.\r\n\r\nTiqzy is looking to implement a cloud-based backend architecture that supports scalability as the platform's user base grows. Initially, the system will be designed to support a smaller user base averaging 5,000 users, with the ability to scale seamlessly to accommodate up to 50,000 users and beyond as demand increases. The goal is to have an infrastructure that can dynamically expand in response to user growth, ensuring that the platform remains fast and reliable at all stages.\r\n\r\nTheir design inspiration is drawn from similar systems like GetYourGuide.com and Tiqets.com with a goal to improve existing traditional user workflows. The system seeks to balance recognizable design elements with improved user experience, providing a streamlined, and intuitive ticketing experience.\r\n\r\n### Target User Group\r\n\r\nThe Tiqzy platform is designed for two primary groups of users: businesses setting up reseller microsites (resellers) and end consumers purchasing tickets through these microsites. These two groups have different needs, goals, and interactions with the platform. The initial user base is expected to range from 5,000 to 15,000, with the potential for growth as new cities and countries are added.\r\n\r\nTo better understand the target user group, the following personas illustrate the users.\r\n\r\n**Persona 1: Hannah, the Museum Ticket Reseller & Organizer**\r\n\r\n- Age: 45\r\n- Role: Director of Marketing at a historical museum in Amsterdam.\r\n- Goals:\r\n    - Increase museum ticket sales by extending the locations of where tickets are available for purchase.\r\n    - Ensure the museum’s brand and ticketing platform(s) maintain a high standard of professionalism and user experience.\r\n    - Use flexible pricing strategies for off-peak hours or special exhibits to boost attendance.\r\n- Frustrations:\r\n    - Poor integration between internal ticketing systems and reseller platforms can cause delays and booking differences.\r\n    - Difficulty in creating promotional campaigns or discounts that reach the right audience in a timely manner and the ability to be discovered.\r\n    - Concerned about overbooking during popular events and ensuring real-time updates to prevent customer frustration.\r\n- Needs from Tiqzy:\r\n    - Integration between the museum’s internal ticketing system and Tiqzy, allowing real-time updates of ticket availability and pricing.\r\n    - Customizable Microsites: Ability to create branded microsites that allow for customization and that which presents the museum’s branding and relevant information.\r\n    - Being able to track sales to view sales performances.\r\n    - The ability to offer special discounts or promotions and track the success of these offers.\r\n- User Behavior:\r\n    - Use Tiqzy’s dashboard to review sales data and make real-time adjustments to ticket availability.\r\n    - Regularly create promotional campaigns for special events and exhibitions.\r\n    - Prefers a clean, simple user interface that allows quick access to key features like sales reporting and ticket inventory management.\r\n\r\n**Persona 2: Ben, the Enthusiastic Museum Visitor (End Consumer)**\r\n\r\n- Age: 26\r\n- Role: Traveler across Europe\r\n- Goals:\r\n    - Easily find and purchase museum tickets while traveling, with no time wasted on complex booking processes.\r\n    - Explore local events and museums, with a focus on art, history, and culture.\r\n    - Find special deals or package offers that improves his travel experience.\r\n- Frustrations:\r\n    - Some ticketing platforms are slow, hard to navigate, or filled with outdated event information.\r\n    - Hidden fees or unexpected costs during checkout can lead to frustration and distrust.\r\n    - Finds it difficult to compare ticket options, especially when he’s unfamiliar with local events or venues.\r\n    - Sometimes ticket availability is unclear, which can lead to disappointment if the events are sold out or inaccessible.\r\n- Needs from Tiqzy:\r\n    - A simple search and navigation, mobile-friendly interface that allows him to quickly filter and find museum tickets and local events in the cities he’s visiting.\r\n    - Real-time updates of ticket availability and prices.\r\n    - A transparent and easy to use checkout process with trusted payment methods like Stripe that avoid hidden fees.\r\n    - Event recommendations based on his location and interests, helping him find the best museums and cultural events nearby.\r\n- User Behavior:\r\n    - Typically searches for tickets on his phone while traveling.\r\n    - Tends to make fast purchase decisions.\r\n    - Occasionally looks for bundled or discounted tickets to make the most of his visit, especially when he’s staying in a city for a limited time.\r\n\r\n### Platform Goals and Features\r\n\r\nCustomizable reseller microsites where businesses can manage ticket sales.\r\n\r\nGlobal scalability, allowing users to select the country and city they would like to purchase tickets at and view relevant venue ticket offerings.\r\n\r\nAPI integration for seamless content delivery from external providers.\r\n\r\nStripe payment integration for easy transactions.\r\n\r\nUser-friendly design, inspired by GetYourGuide.com and Tiqets.com, with flexibility in navigation and ticket advertising.\r\n\r\nThis platform seeks to establish itself as a competitive player in the ticketing industry, offering improvements on existing systems through enhanced scalability and ease of use.",
           "filename" : "01_context.md",
           "format" : "Markdown",
           "order" : 1,
@@ -736,7 +735,7 @@
           "order" : 3,
           "title" : ""
         }, {
-          "content" : "## Business process\r\n\r\n### Registration\r\n\r\n#### Preregister\r\n![preregistration proces](./img/preregistration_bpm.png \"preregistration proces\")\r\n\r\n#### Pay\r\n\r\n#### Register\r\n\r\n### Fencing\r\n\r\n#### Create Tournament Schedule\r\n\r\n#### Fence\r\n\r\n#### Process results\r\n\r\n### Process and Publish endresults",
+          "content" : "## Business processes\r\n\r\n### Buying tickets\r\n\r\n![Buying tickets process](./img/Buying-tickets-swimlane-flowchart.png \"Buying tickets process\")",
           "filename" : "04_businessProcess.md",
           "format" : "Markdown",
           "order" : 4,
@@ -784,7 +783,7 @@
         "destinationId" : "5",
         "id" : "38",
         "properties" : {
-          "structurizr.dsl.identifier" : "d27018f2-1777-4a58-945d-ea85cc0d665d"
+          "structurizr.dsl.identifier" : "daa5573b-a43c-4df2-a950-3754b79bad9e"
         },
         "sourceId" : "26",
         "tags" : "Relationship"
@@ -805,7 +804,7 @@
   "views" : {
     "componentViews" : [ {
       "automaticLayout" : {
-        "applied" : true,
+        "applied" : false,
         "edgeSeparation" : 0,
         "implementation" : "Graphviz",
         "nodeSeparation" : 300,
@@ -815,34 +814,30 @@
       },
       "containerId" : "7",
       "description" : "Components within the Database container",
-      "dimensions" : {
-        "height" : 1991,
-        "width" : 2390
-      },
       "elements" : [ {
         "id" : "8",
-        "x" : 969,
-        "y" : 1399
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "9",
-        "x" : 219,
-        "y" : 1399
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "10",
-        "x" : 1719,
-        "y" : 1399
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "21",
-        "x" : 969,
-        "y" : 799
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "22",
-        "x" : 560,
-        "y" : 199
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "23",
-        "x" : 1460,
-        "y" : 199
+        "x" : 0,
+        "y" : 0
       } ],
       "externalContainerBoundariesVisible" : false,
       "key" : "Database-Components",
@@ -971,7 +966,6 @@
     "configuration" : {
       "branding" : { },
       "lastSavedView" : "Database-Components",
-      "metadataSymbols" : "SquareBrackets",
       "styles" : {
         "elements" : [ {
           "color" : "#ffffff",
@@ -1004,62 +998,58 @@
         "vertices" : false
       },
       "description" : "Containers diagram of the Tiqzy App.",
-      "dimensions" : {
-        "height" : 3191,
-        "width" : 4395
-      },
       "elements" : [ {
         "id" : "5",
-        "x" : 1586,
-        "y" : 800
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "6",
-        "x" : 749,
-        "y" : 800
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "7",
-        "x" : 1124,
-        "y" : 2600
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "11",
-        "x" : 1807,
-        "y" : 2000
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "12",
-        "x" : 374,
-        "y" : 2600
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "14",
-        "x" : 2336,
-        "y" : 800
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "20",
-        "x" : 2336,
-        "y" : 1400
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "21",
-        "x" : 749,
-        "y" : 2000
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "22",
-        "x" : 1586,
-        "y" : 1400
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "23",
-        "x" : 220,
-        "y" : 1400
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "24",
-        "x" : 3745,
-        "y" : 2000
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "25",
-        "x" : 2995,
-        "y" : 2000
+        "x" : 0,
+        "y" : 0
       }, {
         "id" : "26",
-        "x" : 1586,
-        "y" : 200
+        "x" : 0,
+        "y" : 0
       } ],
       "externalSoftwareSystemBoundariesVisible" : false,
       "key" : "Ticket-Reselling-Containers",
@@ -1079,11 +1069,7 @@
       }, {
         "id" : "45"
       }, {
-        "id" : "46",
-        "vertices" : [ {
-          "x" : 1436,
-          "y" : 1400
-        } ]
+        "id" : "46"
       }, {
         "id" : "47"
       }, {
@@ -1099,11 +1085,7 @@
       }, {
         "id" : "56"
       }, {
-        "id" : "59",
-        "vertices" : [ {
-          "x" : 599,
-          "y" : 2300
-        } ]
+        "id" : "59"
       }, {
         "id" : "60"
       } ],
