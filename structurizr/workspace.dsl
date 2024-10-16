@@ -84,11 +84,11 @@ workspace {
             description "Stripe API"
         }
 
-        grafana = softwareSystem "Grafana" {
+        tiqzy = softwareSystem "Tiqzy" {
             !docs docs
             !adrs adrs
             description "Visualise the metrics and statistics of Tiqzy App"
-            grafanaWebApp = container "Grafana Web App" {
+            tiqzyMobileApp = container "Tiqzy Mobile App" {
                 description "Displays the metrics in dashboards"
             }
             metricsService = container "Metrics Service" {
@@ -107,9 +107,9 @@ workspace {
         reseller -> ticketResellingSystem "Manages and resells tickets"
         buyer -> ticketResellingSystem "Purchases tickets from resellers"
         admin -> ticketResellingSystem "Oversees system operations"
-        admin -> grafana "Oversees Statistics"
+        admin -> tiqzy "Oversees Statistics"
         webApp -> paymentService
-        grafana -> webApp "Scrapes metrics and statistics"
+        tiqzy -> webApp "Scrapes metrics and statistics"
         mobileApp -> orderingService
         mobileApp -> wishlistService
         authService -> externalTicketingAPI "Validates tickets"
@@ -126,9 +126,9 @@ workspace {
         wishlistService -> wishlistDb
         wishlistService -> ticketService
 
-        //connections grafana
-        grafanaWebApp -> metricsService
-        grafanaWebApp -> statisticsService
+        //connections tiqzy
+        tiqzyMobileApp -> metricsService
+        tiqzyMobileApp -> statisticsService
         metricsService -> metricsDb
         statisticsService -> statsDb
 
@@ -161,13 +161,13 @@ workspace {
             autolayout
         }
 
-        systemContext grafana "Grafana-Context" {
-            description "System context diagram for the Grafana platform."
+        systemContext tiqzy "Tiqzy-Context" {
+            description "System context diagram for the Tiqzy platform."
             include *
             autolayout
         }
-        container grafana "Grafana-Containers" {
-            description "Containers diagram of the Grafana App."
+        container tiqzy "Tiqzy-Containers" {
+            description "Containers diagram of the Tiqzy App."
             include *
             autolayout
         }

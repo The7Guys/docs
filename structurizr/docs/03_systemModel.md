@@ -7,19 +7,19 @@
 + Manage user roles
 + Manage user permissions
 + Manage user sessions
-+ Manage password reset and change
++ Send magic links for passwordless login
 
 #### Interface
 + login
 + logout
 + register
-+ changePassword
-+ resetPassword
++ sendMagicLink
 
 #### Data
 + User
 + Role
 + Token
++ MagicLink
 
 ### Payment Service
 
@@ -119,3 +119,4 @@
 | Apple Wallet Pass | A pass for Apple Wallet                                                     | Pass Type, Pass Information |
 | Wishlist      | A list of items that a user wants to buy in the future                       | Wishlist Items, User |
 | Wishlist Item | An item in a wishlist                                                        | Name, Description, Price, Image, URL |
+| Magic Link    | A link that allows a user to login without a password                        | Link, Expiry Date, User |
