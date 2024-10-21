@@ -14,4 +14,4 @@ To build and run the docker container, run the following command:
 docker-compose up --build
 ```
 
-The API will be available at `http://localhost:8000`.
+The API will be available at `http://localhost:8080`.
