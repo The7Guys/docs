@@ -161,7 +161,7 @@ workspace {
         ticketResellingSystem -> firebase "Sends push notifications using"
         ticketResellingSystem -> paymentAPI "Processes payments using"
         emailSystem -> buyer "Sends tickets and invoices to"
-        firebase
+        firebase -> buyer "Sends push notifications to"
         ticketResellingSystem -> externalTicketingAPI "Retrieves event information, availability, and updates stock using"
 
         // connections level C2 - container (tiqzyStats)
