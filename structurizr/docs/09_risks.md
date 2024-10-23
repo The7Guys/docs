@@ -7,3 +7,5 @@
 | The development time is too short                                       | Prioritize the most important features and deliver them |
 | There is a lot of potential simultaneous users                          | Load testing and scaling up the system                  |
 | Team member is sick or unavailable                                      | Make sure that the team is cross-functional              |
+| Services are not available                                              | Use a fallback mechanism or retry mechanism              |
+| Services become too encumbered                                          | Spin up more instances                                  |
