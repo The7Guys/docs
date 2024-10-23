@@ -2,38 +2,24 @@
 ## Requirements
 ### Functional requirements
 
-These are the basic features and functions the Tiqzy app needs to have to work properly:
+**Branded ticketing platform**: The app should be a branded ticketing platform that allows users to browse, purchase, and manage tickets for various events and attractions. The application will be available on both iOS and Android devices, and will be branded based on the reseller's preferences.
 
-**Reseller Microsite Setup**: Resellers are the platforms that want to sell tickets through the ticket platforms. A microsite is mini website that is linked to a reseller Id, when used in the URL, directs users to a website with the reseller’s tickets that they want to sell. The system must allow businesses to create their own ticket-selling microsite, where they can add their brand logos, images, and payment options.
-
-
-
-**Country and City Selection**: Users should be able to select their country and city in the app to view tickets for events or attractions available in their area. These tickets will be grouped by activity type. For example, all tickets for boat activities in Amsterdam will be grouped together, and bus tours will also be grouped together differently.
+**Country and city selection**: Users should be able to select their country and city in the app to view tickets for events or attractions available in their area. These tickets will be grouped by activity type. For example, all tickets for boat activities in Amsterdam will be grouped together, and bus tours will also be grouped together differently.
 
 
-
-**Ticket Browsing and Purchase**: The app must allow users to browse through available tickets, view details, and purchase tickets directly. It will also allow users to sort through tickets by activity, country, cities etc.
-
+**Ticket browsing and purchase**: The app must allow users to browse through available tickets, view details, and purchase tickets directly. It will also allow users to sort through tickets by activity, country, cities etc.
 
 
+**Wishlist**: Users should be able to add tickets to a wishlist, to save them for later or to share with friends. This feature will help users keep track of tickets they are interested in and receive notifications when prices change or tickets become available.
 
 
-**Payment Integration**: The platform must integrate with Stripe for secure online payments, allowing users to pay for tickets easily and safely.
+**Payment integration**: The platform must integrate with Stripe for secure online payments, allowing users to pay for tickets easily and safely.
 
 
-
-**API Integration**: The system must connect to external ticket providers (via API) to automatically update ticket listings, prices, and availability in real-time. These APIs will also receive information from the businesses like museums which want to sell their tickets through the Tiqzy platform.
-
-
-
-**Ticket Management Dashboard**: Resellers must have access to a dashboard where they can manage their tickets (e.g., adding, removing, or editing tickets) and track sales and bookings.
-
+**API integration**: The system must connect to external ticket providers (via API) to automatically update ticket listings, prices, and availability in real-time. These APIs will also receive information from the businesses like museums which want to sell their tickets through the Tiqzy platform.
 
 
 **Ticket Price Management**: The system must support different ticket pricing options, such as full price, discounted, or free tickets, depending on the reseller's preferences.
-
-
-**Booking Overview**: Resellers should be able to see a list of all booked tickets, 	including information like who bought them and how much they paid. This will be 	linked to their accounts which allow for more visibility.
 
 
 ### Non-Functional requirements
@@ -68,8 +54,4 @@ These are the basic features and functions the Tiqzy app needs to have to work p
 
 ![Tiqzy Architecture Diagram](img/Project_Architecture.png)
 
-This diagram shows the high-level architecture of the Tiqzy platform. The system is designed to be cloud-based, with a frontend application that interacts with a backend API. The backend API connects to a database to store ticket information and user data. The system also integrates with external ticketing platforms via APIs to provide up-to-date ticket listings. The application is hosted on a cloud platform, which allows for scalability and high availability.
-
-The client requests are authenticated and go through RabbitMQ, which acts as a message broker to distribute the requests to the appropriate services. The services are containerized using Docker and orchestrated with OpenShift, which allows for easy deployment and scaling of the application. The system is monitored using Prometheus and Grafana to track performance and ensure reliability.
-
-Notice the two API's that are outside of the system - Tiqzy's ticketing API and Stripe's payment API. These are external services that the Tiqzy platform integrates with to provide ticket listings and payment processing.
+The architecture is a cloud-native microservices-based system built for scalability, modularity, and flexibility. It employs an Nginx API Gateway to route requests to loosely-coupled services such as Authentication (Java), Order (C#), Ticket (C#), and Payment (Java). These services communicate asynchronously through RabbitMQ, enabling event-driven interactions and reducing dependencies. Data is persisted across various storages, including MariaDB, blob storage, and table storage. External integrations include Stripe for payments and Firebase for push notifications. The system is deployed on OpenShift with Grafana/Prometheus for monitoring.
